@@ -1,0 +1,541 @@
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 5.2 (devel), Q-Chem, Inc., Pleasanton, CA (2019)
+
+ Yihan Shao,  Zhengting Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
+ J. Kussmann,  A. W. Lange,  A. Behn,  Jia Deng,  Xintian Feng,  D. Ghosh,  
+ M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  T. Kus,  A. Landau,  
+ Jie Liu,  E. I. Proynov,  R. M. Richard,  R. P. Steele,  E. J. Sundstrom,  
+ H. L. Woodcock III,  P. M. Zimmerman,  D. Zuev,  B. Alam,  B. Albrecht,  
+ E. Alguire,  S. A. Baeppler,  D. Barton,  Z. Benda,  Y. A. Bernard,  
+ E. J. Berquist,  K. B. Bravaya,  H. Burton,  K. Carter-Fenk,  D. Casanova,  
+ Chun-Min Chang,  Yunqing Chen,  A. Chien,  K. D. Closser,  M. P. Coons,  
+ S. Coriani,  S. Dasgupta,  A. L. Dempwolff,  M. Diedenhofen,  Hainam Do,  
+ R. G. Edgar,  Po-Tung Fang,  S. Faraji,  S. Fatehi,  Qingguo Feng,  
+ J. Fosso-Tande,  J. Gayvert,  Qinghui Ge,  A. Ghysels,  G. Gidofalvi,  
+ J. Gomes,  J. Gonthier,  A. Gunina,  D. Hait,  M. W. D. Hanson-Heine,  
+ P. H. P. Harbach,  A. W. Hauser,  M. F. Herbst,  J. E. Herr,  
+ E. G. Hohenstein,  Z. C. Holden,  Kerwin Hui,  B. C. Huynh,  T.-C. Jagau,  
+ Hyunjun Ji,  B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  P. Klunzinger,  K. Koh,  
+ D. Kosenkov,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  A. Kunitsa,  
+ Ka Un Lao,  A. Laurent,  K. V. Lawler,  Joonho Lee,  D. Lefrancois,  
+ S. Lehtola,  D. S. Levine,  Yi-Pei Li,  You-Sheng Lin,  Fenglai Liu,  
+ Kuan-Yu Liu,  E. Livshits,  M. Loipersberger,  A. Luenser,  P. Manohar,  
+ E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  Yuezhi Mao,  N. Mardirossian,  
+ A. V. Marenich,  T. Markovich,  L. A. Martinez-Martinez,  S. A. Maurer,  
+ N. J. Mayhall,  S. C. McKenzie,  J.-M. Mewes,  P. Morgante,  A. F. Morrison,  
+ J. W. Mullinax,  K. Nanda,  T. S. Nguyen-Beck,  R. Olivares-Amaya,  
+ J. A. Parkhill,  S. K. Paul,  F. Pavosevic,  Zheng Pei,  T. M. Perrine,  
+ F. Plasser,  P. Pokhilko,  S. Prager,  A. Prociuk,  E. Ramos,  B. Rana,  
+ D. R. Rehn,  F. Rob,  M. Scheurer,  M. Schneider,  N. Sergueev,  
+ S. M. Sharada,  S. Sharma,  D. W. Small,  T. Stauch,  C. J. Stein,  
+ T. Stein,  Yu-Chuan Su,  S. P. Veccham,  Zhen Tao,  A. J. W. Thom,  
+ A. Tkatchenko,  T. Tsuchimochi,  N. M. Tubman,  L. Vogt,  M. L. Vidal,  
+ O. Vydrov,  M. A. Watson,  J. Wenzel,  M. de Wergifosse,  T. A. Wesolowski,  
+ A. White,  J. Witte,  A. Yamada,  Jun Yang,  K. Yao,  S. Yeganeh,  
+ S. R. Yost,  Zhi-Qiang You,  A. Zech,  Igor Ying Zhang,  Xing Zhang,  
+ Yan Zhao,  Ying Zhu,  B. R. Brooks,  G. K. L. Chan,  C. J. Cramer,  
+ M. S. Gordon,  W. J. Hehre,  A. Klamt,  M. W. Schmidt,  C. D. Sherrill,  
+ D. G. Truhlar,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
+ Jeng-Da Chai,  A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  
+ B. D. Dunietz,  T. R. Furlani,  Chao-Ping Hsu,  Yousung Jung,  Jing Kong,  
+ D. S. Lambrecht,  WanZhen Liang,  C. Ochsenfeld,  V. A. Rassolov,  
+ L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  J. M. Herbert,  
+ A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  J. Baker,  G. J. O. Beran,  K. Brandhorst,  
+ S. T. Brown,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  L. Fusti-Molnar,  W. A. Goddard III,  
+ A. Golubeva-Zadorozhnaya,  S. R. Gwaltney,  G. Hawkins,  A. Heyden,  
+ S. Hirata,  G. Kedziora,  F. J. Keil,  C. Kelley,  Jihan Kim,  R. A. King,  
+ R. Z. Khaliullin,  P. P. Korambath,  W. Kurlancheek,  A. M. Lee,  M. S. Lee,  
+ S. V. Levchenko,  Ching Yeh Lin,  D. Liotard,  R. C. Lochan,  I. Lotan,  
+ P. E. Maslen,  N. Nair,  D. P. O'Neill,  D. Neuhauser,  E. Neuscamman,  
+ C. M. Oana,  R. Olson,  B. Peters,  R. Peverati,  P. A. Pieniazek,  
+ Y. M. Rhee,  J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  
+ H. F. Schaefer III,  N. E. Schultz,  N. Shenvi,  A. C. Simmonett,  A. Sodt,  
+ D. Stuck,  K. S. Thanthiriwatte,  V. Vanovschi,  Tao Wang,  A. Warshel,  
+ C. F. Williams,  Q. Wu,  X. Xu,  W. Zhang
+
+ Please cite Q-Chem as follows:
+ Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
+ DOI: 10.1080/00268976.2014.952696
+
+ Q-Chem 5.2.2 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.800.1 (Horizon Scraper).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Fri Mar  5 04:27:25 2021  
+
+Host: node019
+0
+
+     Scratch files written to /home/ymao90/scratch/probe_b3lyp_dp_esp20210305042715//
+
+Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+C         0.4612418145   -1.2420508655    0.4160834249
+C        -0.3176352256    0.0339416802    0.0478210584
+C         0.5212480941    1.2960829808    0.3140850523
+C         1.8786388613    1.2330233750   -0.4054423318
+C         2.6561003230   -0.0411111453   -0.0398878193
+C         1.8180135321   -1.3015031773   -0.3048229442
+H        -0.0438417398    2.1810393219   -0.0003107249
+H        -0.5799552283   -0.0042372449   -1.0144361342
+H         0.6254389968   -1.2581548711    1.5046036210
+H        -0.1470338295   -2.1205738758    0.1727325248
+H         1.7108734973    1.2561227760   -1.4916154042
+H         2.4691306411    2.1247003402   -0.1633160255
+H         3.5956932235   -0.0856898414   -0.6036839828
+H         2.9312876475   -0.0054621016    1.0245042060
+H         1.6466794901   -1.4025956658   -1.3859770802
+H         2.3659502825   -2.1983866104    0.0078815647
+H         0.6887229560    1.3923277182    1.3981995017
+N        -1.5973339814    0.0971451100    0.7554474478
+H        -1.5856923318    0.1923106701    1.7627868945
+C        -2.8130026809    0.0202304641    0.1491508509
+H        -3.6473411342    0.0872214043    0.8731781509
+O        -3.0035129044   -0.1046112663   -1.0534731298
+$end
+
+$rem
+JOBTYPE  SP
+METHOD  B3LYP
+BASIS  6-31+G(D,P)
+SYMMETRY  FALSE
+SYM_IGNORE  FALSE
+MEM_TOTAL  8000
+MEM_STATIC  2000
+MAX_SUB_FILE_NUM  16000
+BASIS_LIN_DEP_THRESH  6
+THRESH  14
+SCF_CONVERGENCE  8
+GEN_SCFMAN  TRUE
+SCF_GUESS  SAD
+FD_MAT_VEC_PROD  FALSE
+XC_GRID  000099000590
+NL_GRID  1
+MAX_SCF_CYCLES  200
+ESP_GRID -1
+IANLTY   200
+MAKE_CUBE_FILES TRUE
+$end
+
+$plots
+plot the ESP
+100  -6.0  6.0
+100  -4.0  4.0
+100  -4.0  4.0
+0 0 0 0
+0
+$end
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C       0.4604230502    -1.2418089377     0.4165732629
+    2      C      -0.3183279774     0.0340724541     0.0476598557
+    3      C       0.5205815854     1.2962791370     0.3135309452
+    4      C       1.8780812125     1.2328481010    -0.4057583786
+    5      C       2.6554171840    -0.0411763133    -0.0395538170
+    6      C       1.8173040367    -1.3016332190    -0.3040966393
+    7      H      -0.0444116490     2.1811352431    -0.0013202377
+    8      H      -0.5804842864    -0.0045332365    -1.0146223233
+    9      H       0.6244495265    -1.2574700092     1.5051256580
+   10      H      -0.1478618081    -2.1204002275     0.1734920505
+   11      H       1.7104865641     1.2555057329    -1.4919671101
+   12      H       2.4685831046     2.1245937906    -0.1639099939
+   13      H       3.5950956446    -0.0860393958    -0.6031848021
+   14      H       2.9304403457    -0.0051003083     1.0248662522
+   15      H       1.6461332560    -1.4031651914    -1.3852354525
+   16      H       2.3651438110    -2.1984161976     0.0090655484
+   17      H       0.6878924638     1.3929647943     1.3976314811
+   18      N      -1.5981337296     0.0976382066     0.7550602500
+   19      H      -1.5866441404     0.1932211855     1.7623619209
+   20      C      -2.8137119454     0.0205371746     0.1486059277
+   21      H      -3.6481597567     0.0878733490     0.8724751574
+   22      O      -3.0040412306    -0.1047934194    -1.0539958548
+ ----------------------------------------------------------------
+ Molecular Point Group                 C1    NOp =  1
+ Largest Abelian Subgroup              C1    NOp =  1
+ Nuclear Repulsion Energy =         466.80246112 hartrees
+ There are       35 alpha and       35 beta electrons
+ Requested basis set is 6-31+G(d,p)
+ There are 84 shells and 236 basis functions
+
+ Total QAlloc Memory Limit   8000 MB
+ Mega-Array Size      1956 MB
+ MEM_STATIC part      2000 MB
+ A cutoff of  1.0D-14 yielded   3274 shell pairs
+ There are     26360 function pairs
+ Smallest overlap matrix eigenvalue = 2.43E-05
+
+ Scale SEOQF with 1.000000e-01/1.000000e-01/1.000000e-01
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000113 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 70.000000 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:     0.2000 Hartree-Fock + 0.0800 Slater + 0.7200 B88
+ Correlation:  0.1900 VWN1RPA + 0.8100 LYP
+ Using Euler-Maclaurin-Lebedev (99,590) quadrature formula
+ using 8 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 2.0, May 2017, Q-Chem Inc. Pleasanton 
+ -------------------------------------------------------
+ A restricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-08
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1    -406.2387244151      4.25e-02  
+    2    -404.4014041387      5.48e-03  
+    3    -404.0228502849      9.82e-03  
+    4    -404.5759100808      2.24e-03  
+    5    -404.6043692775      5.71e-04  
+    6    -404.6061840407      1.72e-04  
+    7    -404.6063474728      6.34e-05  
+    8    -404.6063721978      1.09e-05  
+    9    -404.6063728778      3.87e-06  
+   10    -404.6063729677      6.66e-07  
+   11    -404.6063729703      2.56e-07  
+   12    -404.6063729708      4.84e-08  
+   13    -404.6063729708      9.32e-09  Convergence criterion met
+ ---------------------------------------
+ SCF time:   CPU 506.29s  wall 63.00s 
+ SCF   energy in the final basis set =     -404.6063729708
+ Total energy in the final basis set =     -404.6063729708
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+-19.1273 -14.3739 -10.2917 -10.2323 -10.1947 -10.1934 -10.1922 -10.1916
+-10.1905  -1.0382  -0.9351  -0.8347  -0.7529  -0.7511  -0.6436  -0.6226
+ -0.5984  -0.5730  -0.5313  -0.4887  -0.4667  -0.4521  -0.4463  -0.4226
+ -0.4165  -0.4038  -0.3894  -0.3787  -0.3564  -0.3547  -0.3329  -0.3233
+ -0.3189  -0.2621  -0.2609
+ -- Virtual --
+ -0.0054   0.0041   0.0114   0.0171   0.0209   0.0305   0.0416   0.0462
+  0.0508   0.0609   0.0613   0.0771   0.0823   0.0850   0.0921   0.0948
+  0.1025   0.1103   0.1164   0.1282   0.1322   0.1437   0.1468   0.1562
+  0.1653   0.1727   0.1771   0.1792   0.1908   0.1940   0.2047   0.2063
+  0.2143   0.2166   0.2289   0.2385   0.2457   0.2479   0.2558   0.2614
+  0.2769   0.2794   0.2798   0.2858   0.2886   0.3038   0.3111   0.3212
+  0.3228   0.3280   0.3559   0.3616   0.3777   0.3809   0.4071   0.4116
+  0.4334   0.4520   0.4919   0.5981   0.6236   0.6394   0.6444   0.6500
+  0.6675   0.6824   0.7163   0.7192   0.7344   0.7377   0.7618   0.7649
+  0.7854   0.7895   0.7983   0.8172   0.8421   0.8878   0.9377   0.9500
+  0.9535   0.9688   0.9995   1.0067   1.0131   1.0349   1.0624   1.0708
+  1.0909   1.0976   1.1046   1.1263   1.1355   1.1415   1.1457   1.1537
+  1.1794   1.2388   1.2651   1.2765   1.3292   1.3319   1.3499   1.3970
+  1.4029   1.4355   1.4515   1.4954   1.4973   1.5673   1.5785   1.6012
+  1.6510   1.6626   1.7035   1.7239   1.7378   1.7724   1.8016   1.8266
+  1.8332   1.8671   1.8716   1.8772   1.9095   1.9469   1.9485   1.9668
+  1.9880   2.0386   2.0475   2.0878   2.1166   2.1227   2.1241   2.1337
+  2.1542   2.1591   2.1822   2.2017   2.2329   2.2763   2.2833   2.3161
+  2.3311   2.3471   2.3688   2.3954   2.4237   2.4396   2.4511   2.4597
+  2.4805   2.5151   2.5198   2.5604   2.5627   2.5861   2.6168   2.6235
+  2.6491   2.6867   2.7049   2.7685   2.7765   2.8063   2.8105   2.8256
+  2.8290   2.8513   2.8741   2.8850   2.9004   2.9083   2.9320   2.9451
+  2.9831   3.1271   3.1940   3.2861   3.3265   3.3283   3.3340   3.3396
+  3.3486   3.4635   3.5017   3.5028   3.5478   3.5562   3.6087   3.6391
+  4.2092   4.2724   4.3619   4.4485   4.4623   4.5536   4.7421   4.7700
+  4.7914
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 C                    -0.156928
+      2 C                    -0.412508
+      3 C                    -0.184298
+      4 C                    -0.264084
+      5 C                    -0.286329
+      6 C                    -0.264263
+      7 H                     0.149907
+      8 H                     0.181728
+      9 H                     0.132741
+     10 H                     0.150413
+     11 H                     0.143382
+     12 H                     0.137143
+     13 H                     0.136233
+     14 H                     0.136111
+     15 H                     0.143542
+     16 H                     0.137168
+     17 H                     0.131956
+     18 N                    -0.282200
+     19 H                     0.291074
+     20 C                     0.370912
+     21 H                     0.097392
+     22 O                    -0.489090
+  ----------------------------------------
+  Sum of atomic charges =     0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                 0.0000
+    Dipole Moment (Debye)
+         X       2.5699      Y       0.3414      Z       3.2444
+       Tot       4.1530
+    Quadrupole Moments (Debye-Ang)
+        XX     -63.9983     XY      -0.9841     YY     -56.8271
+        XZ     -10.0428     YZ       0.0054     ZZ     -56.6809
+    Octopole Moments (Debye-Ang^2)
+       XXX      12.2719    XXY       2.9766    XYY      -2.5154
+       YYY      -0.4191    XXZ      29.1153    XYZ       0.4079
+       YYZ      -1.3332    XZZ       1.1319    YZZ       1.1387
+       ZZZ       7.8257
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX   -1476.8083   XXXY      -9.0322   XXYY    -298.2767
+      XYYY       1.1471   YYYY    -380.4169   XXXZ     -93.0935
+      XXYZ      -1.5985   XYYZ       4.8498   YYYZ      -0.4202
+      XXZZ    -287.9210   XYZZ      -2.4019   YYZZ    -101.2129
+      XZZZ     -15.1356   YZZZ       2.2966   ZZZZ    -192.3893
+ -----------------------------------------------------------------
+ Electrostatic potential will be computed using the SCF density
+   ... ESP will be evaluated on the $plots plotting cube.
+ ESP points per batch =         5000
+ In PlotFile. NPPer   =         5000
+ Created directory /home/ymao90/scratch/probe_b3lyp_dp_esp20210305042715/plots
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+ In PlotFile. NPPer   =         5000
+  --- DONE ESP SUMMARY ---
+Archival summary:
+1\1\node019\SP\ProcedureUnspecified\6-31+G**\11713\ymao90\FriMar504:29:502021FriMar504:29:502021\0\\#,ProcedureUnspecified,6-31+G**,\\0,1\N\H,1,1.01189\C,1,1.36065,2,117.335\H,3,1.10672,1,112.248,2,0.683862,0\O,3,1.224,1,125.636,2,-179.521,0\C,1,1.46368,2,118.378,3,-179.235,0\H,6,1.09483,1,105.135,2,-176.604,0\C,6,1.53871,1,110.952,2,-58.8008,0\H,8,1.09605,6,109.364,1,-58.1054,0\H,8,1.10119,6,108.964,1,58.3859,0\C,8,1.5376,6,111.511,1,179.084,0\H,11,1.09654,8,109.799,6,-177.641,0\H,11,1.0993,8,109.074,6,66.0618,0\C,11,1.53672,8,111.673,6,-54.7868,0\H,14,1.09667,11,110.174,8,177.174,0\H,14,1.09997,11,109.262,8,-66.1213,0\C,14,1.53661,11,111.293,8,54.6244,0\H,17,1.09655,14,110.437,11,-177.138,0\H,17,1.0993,14,109.269,11,66.096,0\C,17,1.53755,14,111.637,11,-54.6684,0\H,20,1.09591,17,110.773,14,176.821,0\H,20,1.10095,17,109.354,14,-65.6205,0\\\@
+
+ Total job time:  145.18s(wall), 1143.23s(cpu) 
+ Fri Mar  5 04:29:50 2021
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+
