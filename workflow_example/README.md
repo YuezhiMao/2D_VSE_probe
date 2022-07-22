@@ -19,11 +19,11 @@
    to get rid of the periodic boundary condition
 5. Generate the Q-Chem inputs: for calculations based on SPADE partition, run  
    ```
-   python make_input_solvent_efield.py -m B3LYP -b dp --coarse --efield --solute=22 -a geoms_CXFD_in_DMSO/7A_100 -i input_CXFD_in_DMSO_SPADE  
+   python make_input_solvent_efield.py -m B3LYP -b dp --coarse=1 --solute=22 -a geoms_CXFD_in_DMSO/7A_100 -i input_CXFD_in_DMSO_SPADE  
    ```
    for calculations based on ALMO partitioning, run  
    ```
-   python make_input_solvent_efield.py -m B3LYP -b dp --coarse --efield --solute=22 -a geoms_CXFD_in_DMSO/7A_100 -i input_CXFD_in_DMSO_ALMO --almo
+   python make_input_solvent_efield.py -m B3LYP -b dp --coarse=1 --solute=22 -a geoms_CXFD_in_DMSO/7A_100 -i input_CXFD_in_DMSO_ALMO --almo
    ```
    Run the Q-Chem calculations and copy the output files back to the input directories once finished
 6. Calculate the electric field on C=O and C-D:  

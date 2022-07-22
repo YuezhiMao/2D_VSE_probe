@@ -376,11 +376,8 @@ XC_GRID  000075000302
 NL_GRID  1
 MAX_SCF_CYCLES  200
 FRGM_METHOD  STOLL
-SCFMI_MODE  1
-$end
-
-$development
-almo_efield  1
+SCFMI_MODE   1
+ALMO_EFIELD  TRUE
 $end
 
 $rem_frgm
@@ -757,9 +754,5 @@ MAX_SCF_CYCLES  200
 SKIP_SCFMAN  TRUE
 ESP_GRID  0
 ESP_EFIELD  1
+ALMO_EFIELD  TRUE
 $end
-
-$development
-almo_efield  1
-$end
-

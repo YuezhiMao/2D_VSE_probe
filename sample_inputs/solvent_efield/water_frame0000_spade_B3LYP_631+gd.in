@@ -379,10 +379,7 @@ GEN_SCFMAN_EMBED  TRUE
 SPADE_PARTITION  TRUE
 ESP_GRID  0
 ESP_EFIELD  1
-$end
-
-$development
-embedding_early_stop  1
+EMBEDDING_EARLY_STOP  TRUE
 $end
 
 @@@

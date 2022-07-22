@@ -2,82 +2,103 @@
      A Quantum Leap Into The Future Of Chemistry
 
 
- Q-Chem 5.2 (devel), Q-Chem, Inc., Pleasanton, CA (2019)
+ Q-Chem 6.0 (devel), Q-Chem, Inc., Pleasanton, CA (2022)
 
- Yihan Shao,  Zhengting Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
- J. Kussmann,  A. W. Lange,  A. Behn,  Jia Deng,  Xintian Feng,  D. Ghosh,  
- M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  T. Kus,  A. Landau,  
- Jie Liu,  E. I. Proynov,  R. M. Richard,  R. P. Steele,  E. J. Sundstrom,  
- H. L. Woodcock III,  P. M. Zimmerman,  D. Zuev,  B. Alam,  B. Albrecht,  
- E. Alguire,  S. A. Baeppler,  D. Barton,  Z. Benda,  Y. A. Bernard,  
- E. J. Berquist,  K. B. Bravaya,  H. Burton,  K. Carter-Fenk,  D. Casanova,  
- Chun-Min Chang,  Yunqing Chen,  A. Chien,  K. D. Closser,  M. P. Coons,  
- S. Coriani,  S. Dasgupta,  A. L. Dempwolff,  M. Diedenhofen,  Hainam Do,  
- R. G. Edgar,  Po-Tung Fang,  S. Faraji,  S. Fatehi,  Qingguo Feng,  
- J. Fosso-Tande,  J. Gayvert,  Qinghui Ge,  A. Ghysels,  G. Gidofalvi,  
- J. Gomes,  J. Gonthier,  A. Gunina,  D. Hait,  M. W. D. Hanson-Heine,  
- P. H. P. Harbach,  A. W. Hauser,  M. F. Herbst,  J. E. Herr,  
- E. G. Hohenstein,  Z. C. Holden,  Kerwin Hui,  B. C. Huynh,  T.-C. Jagau,  
- Hyunjun Ji,  B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  P. Klunzinger,  K. Koh,  
- D. Kosenkov,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  A. Kunitsa,  
- Ka Un Lao,  A. Laurent,  K. V. Lawler,  Joonho Lee,  D. Lefrancois,  
- S. Lehtola,  D. S. Levine,  Yi-Pei Li,  You-Sheng Lin,  Fenglai Liu,  
- Kuan-Yu Liu,  E. Livshits,  M. Loipersberger,  A. Luenser,  P. Manohar,  
- E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  Yuezhi Mao,  N. Mardirossian,  
- A. V. Marenich,  T. Markovich,  L. A. Martinez-Martinez,  S. A. Maurer,  
- N. J. Mayhall,  S. C. McKenzie,  J.-M. Mewes,  P. Morgante,  A. F. Morrison,  
- J. W. Mullinax,  K. Nanda,  T. S. Nguyen-Beck,  R. Olivares-Amaya,  
- J. A. Parkhill,  S. K. Paul,  F. Pavosevic,  Zheng Pei,  T. M. Perrine,  
- F. Plasser,  P. Pokhilko,  S. Prager,  A. Prociuk,  E. Ramos,  B. Rana,  
- D. R. Rehn,  F. Rob,  M. Scheurer,  M. Schneider,  N. Sergueev,  
- S. M. Sharada,  S. Sharma,  D. W. Small,  T. Stauch,  C. J. Stein,  
- T. Stein,  Yu-Chuan Su,  S. P. Veccham,  Zhen Tao,  A. J. W. Thom,  
- A. Tkatchenko,  T. Tsuchimochi,  N. M. Tubman,  L. Vogt,  M. L. Vidal,  
- O. Vydrov,  M. A. Watson,  J. Wenzel,  M. de Wergifosse,  T. A. Wesolowski,  
- A. White,  J. Witte,  A. Yamada,  Jun Yang,  K. Yao,  S. Yeganeh,  
- S. R. Yost,  Zhi-Qiang You,  A. Zech,  Igor Ying Zhang,  Xing Zhang,  
- Yan Zhao,  Ying Zhu,  B. R. Brooks,  G. K. L. Chan,  C. J. Cramer,  
- M. S. Gordon,  W. J. Hehre,  A. Klamt,  M. W. Schmidt,  C. D. Sherrill,  
- D. G. Truhlar,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
- Jeng-Da Chai,  A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  
- B. D. Dunietz,  T. R. Furlani,  Chao-Ping Hsu,  Yousung Jung,  Jing Kong,  
- D. S. Lambrecht,  WanZhen Liang,  C. Ochsenfeld,  V. A. Rassolov,  
- L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  J. M. Herbert,  
- A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  B. Alam,  B. Albrecht,  
+ A. Aldossary,  E. Alguire,  J. H. Andersen,  V. Athavale,  D. Barton,  
+ K. Begam,  A. Behn,  N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  
+ H. Burton,  A. Carreras,  K. Carter-Fenk,  Romit Chakraborty,  
+ Chandrima Chakravarty,  Junhan Chen,  A. D. Chien,  K. D. Closser,  
+ V. Cofer-Shabica,  L. Cunha,  S. Dasgupta,  Jia Deng,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  S. Ehlert,  Po-Tung Fang,  S. Fatehi,  
+ Qingguo Feng,  T. Friedhoff,  B. Ganoe,  J. Gayvert,  Qinghui Ge,  
+ G. Gidofalvi,  M. Goldey,  J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  
+ A. Gunina,  J. A. Gyamfi,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  
+ A. W. Hauser,  M. F. Herbst,  M. Hernandez Vera,  M. Hodecker,  
+ Z. C. Holden,  S. Houck,  Xunkun Huang,  Kerwin Hui,  B. C. Huynh,  
+ K. Ikeda,  M. Ivanov,  Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  B. Kaduk,  
+ S. Kaehler,  R. Kang,  K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  
+ P. Klunzinger,  Z. Koczor-Benda,  Joong Hoon Koh,  D. Kosenkov,  
+ Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  K. Kue,  
+ A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  S. Lehtola,  
+ Rain Li,  Shaozhi Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  
+ M. Loipersberger,  A. Luenser,  C. Malbon,  A. Manjanath,  P. Manohar,  
+ E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  T. Markovich,  
+ S. Mason,  F. Matz,  S. A. Maurer,  P. F. McLaughlin,  M. F. S. J. Menger,  
+ J.-M. Mewes,  S. A. Mewes,  P. Morgante,  Mohammad Mostafanejad,  
+ J. W. Mullinax,  K. J. Oosterbaan,  G. Paran,  V. Parravicini,  
+ Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  Zheng Pei,  S. Prager,  
+ E. I. Proynov,  E. Ramos,  B. Rana,  A. E. Rask,  A. Rettig,  R. M. Richard,  
+ F. Rob,  E. Rossomme,  T. Scheele,  M. Scheurer,  M. Schneider,  
+ P. E. Schneider,  N. Sergueev,  S. M. Sharada,  Hengyuan Shen,  
+ W. Skomorowski,  D. W. Small,  C. J. Stein,  Yingli Su,  Yu-Chuan Su,  
+ E. J. Sundstrom,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  J. Wenzel,  
+ Jonathan Wong,  J. Witte,  A. Yamada,  Chou-Hsun Yang,  Kun Yao,  
+ S. Yeganeh,  S. R. Yost,  A. Zech,  F. Zeller,  Igor Ying Zhang,  
+ Xing Zhang,  Yu Zhang,  D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  
+ N. A. Besley,  K. B. Bravaya,  B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  
+ Hsing-Ta Chen,  S. Coriani,  C. J. Cramer,  A. E. DePrince, III,  
+ R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  
+ W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  T. Head-Gordon,  
+ W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  A. Klamt,  
+ Jing Kong,  D. S. Lambrecht,  Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  T. Neudecker,  C. Ochsenfeld,  
+ J. A. Parkhill,  R. Peverati,  V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  
+ L. V. Slipchenko,  R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  
+ A. Tkatchenko,  D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  
+ T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  P. M. Zimmerman,  
+ S. Faraji,  P. M. W. Gill,  M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
 
  Contributors to earlier versions of Q-Chem not listed above: 
- R. D. Adamson,  B. Austin,  J. Baker,  G. J. O. Beran,  K. Brandhorst,  
- S. T. Brown,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
  Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
- R. J. Doerksen,  A. D. Dutoi,  L. Fusti-Molnar,  W. A. Goddard III,  
- A. Golubeva-Zadorozhnaya,  S. R. Gwaltney,  G. Hawkins,  A. Heyden,  
- S. Hirata,  G. Kedziora,  F. J. Keil,  C. Kelley,  Jihan Kim,  R. A. King,  
- R. Z. Khaliullin,  P. P. Korambath,  W. Kurlancheek,  A. M. Lee,  M. S. Lee,  
- S. V. Levchenko,  Ching Yeh Lin,  D. Liotard,  R. C. Lochan,  I. Lotan,  
- P. E. Maslen,  N. Nair,  D. P. O'Neill,  D. Neuhauser,  E. Neuscamman,  
- C. M. Oana,  R. Olson,  B. Peters,  R. Peverati,  P. A. Pieniazek,  
- Y. M. Rhee,  J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  
- H. F. Schaefer III,  N. E. Schultz,  N. Shenvi,  A. C. Simmonett,  A. Sodt,  
- D. Stuck,  K. S. Thanthiriwatte,  V. Vanovschi,  Tao Wang,  A. Warshel,  
- C. F. Williams,  Q. Wu,  X. Xu,  W. Zhang
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
 
- Please cite Q-Chem as follows:
- Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
- DOI: 10.1080/00268976.2014.952696
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
 
- Q-Chem 5.2.2 for Intel X86 EM64T Linux
+ Q-Chem 6.0.0 for Intel X86 EM64T Linux
 
- Parts of Q-Chem use Armadillo 9.800.1 (Horizon Scraper).
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
  http://arma.sourceforge.net/
 
- Q-Chem begins on Fri Dec  3 12:08:47 2021  
+ Q-Chem begins on Thu Jul 21 03:44:47 2022  
 
-Host: node027
+ Host: nid00523
 0
 
-     Scratch files written to /home/ymao90/scratch/r7.00_frame_0018_spade_B3LYP_dp20211203120846//
+     Scratch files written to /global/cscratch1/sd/ymao90/r7.00_frame_0018_spade_B3LYP_dp20220721031338//
+ Processing $rem in /global/homes/y/ymao90/my_qchem/qchem_embedding_5p4/config/preferences:
+ Processing $rem in /global/homes/y/ymao90/.qchemrc:
+ No nuclear gradient supported for projection-based embedding or EMFT. Set max ideriv = 0.
 
-Checking the input file for inconsistencies... 	...done.
+ Checking the input file for inconsistencies... 	...done.
 
 --------------------------------------------------------------
 User input:
@@ -358,14 +379,11 @@ METHOD  B3LYP
 BASIS  6-31+G(D)
 SYMMETRY  FALSE
 SYM_IGNORE  TRUE
-MEM_TOTAL  16000
-MEM_STATIC  8000
-MAX_SUB_FILE_NUM  16000
+MEM_TOTAL  12000
+MEM_STATIC  4000
 BASIS_LIN_DEP_THRESH  6
 THRESH  14
 SCF_CONVERGENCE  8
-GEN_SCFMAN  TRUE
-SCF_GUESS  SAD
 FD_MAT_VEC_PROD  FALSE
 XC_GRID  000075000302
 NL_GRID  1
@@ -373,10 +391,7 @@ MAX_SCF_CYCLES  200
 ENV_METHOD  B3LYP
 GEN_SCFMAN_EMBED  TRUE
 SPADE_PARTITION  TRUE
-$end
-
-$development
-embedding_early_stop  1
+EMBEDDING_EARLY_STOP  TRUE
 $end
 
 --------------------------------------------------------------
@@ -652,9 +667,10 @@ $end
  Requested basis set is 6-31+G(d)
  There are 863 shells and 2405 basis functions
 
- Total QAlloc Memory Limit  16000 MB
- Mega-Array Size      7821 MB
- MEM_STATIC part      8000 MB
+ Total QAlloc Memory Limit  12000 MB
+ Mega-Array Size      3911 MB
+ MEM_STATIC part      4000 MB
+
  A cutoff of  1.0D-14 yielded 149916 shell pairs
  There are   1281160 function pairs
  Smallest overlap matrix eigenvalue = 4.64E-07
@@ -662,7 +678,7 @@ $end
  Tighter screening thresholds may be required for diffuse basis sets
  Use S2THRESH > 14 and THRESH = 14 in case of SCF convergence issues
  Number of orthogonalized atomic orbitals = 2404
- Maximum deviation from orthogonality = 2.766E-10
+ Maximum deviation from orthogonality = 3.177E-10
 
  Scale SEOQF with 1.000000e-03/1.000000e-03/1.000000e-03
 
@@ -696,7 +712,7 @@ $end
  using 16 threads for integral computing
  -------------------------------------------------------
  OpenMP Integral computing Module                
- Release: version 2.0, May 2017, Q-Chem Inc. Pleasanton 
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
  -------------------------------------------------------
  A restricted SCF calculation will be
  performed using DIIS
@@ -705,25 +721,25 @@ $end
   Cycle       Energy         DIIS error
  ---------------------------------------
     1  -13698.4518184908      1.43e-02  
-    2  -13676.7729812742      2.65e-03  
-    3  -13661.1951220273      5.32e-03  
-    4  -13679.8356870449      1.33e-03  
-    5  -13681.1029983754      1.96e-04  
+    2  -13676.7729812740      2.65e-03  
+    3  -13661.1951220270      5.32e-03  
+    4  -13679.8356870228      1.33e-03  
+    5  -13681.1029983768      1.96e-04  
     6  -13681.1196215425      1.72e-04  
     7  -13681.1347970555      6.87e-05  
-    8  -13681.1375134394      1.63e-05  
-    9  -13681.1376642636      6.42e-06  
-   10  -13681.1376875820      2.51e-06  
-   11  -13681.1376911063      7.22e-07  
-   12  -13681.1376913897      2.55e-07  
-   13  -13681.1376914262      8.63e-08  
-   14  -13681.1376914299      3.88e-08  
+    8  -13681.1375134395      1.63e-05  
+    9  -13681.1376642637      6.42e-06  
+   10  -13681.1376875819      2.51e-06  
+   11  -13681.1376911064      7.22e-07  
+   12  -13681.1376913895      2.55e-07  
+   13  -13681.1376914263      8.63e-08  
+   14  -13681.1376914298      3.88e-08  
    15  -13681.1376914307      1.00e-08  
-   16  -13681.1376914309      3.62e-09  Convergence criterion met
+   16  -13681.1376914308      3.62e-09  Convergence criterion met
  ---------------------------------------
- SCF time:   CPU 144014.37s  wall 9099.00s 
- SCF   energy in the final basis set =   -13681.1376914309
- Total energy in the final basis set =   -13681.1376914309
+ SCF time:   CPU 214891.51s  wall 15181.00s 
+ SCF   energy in the final basis set =   -13681.1376914308
+ Total energy in the final basis set =   -13681.1376914308
 
 ****************************************************
              Start embedding calculation            
@@ -750,7 +766,7 @@ NVir (total)   = 1865
 Read converged orbitals from disk
 =========================================================
        Doing SPADE partition for the orbital space       
-     D. CLaudino and N. Mayhall JCTC 15, 1053 (2019)     
+     D. Claudino and N. Mayhall JCTC 15, 1053 (2019)     
 =========================================================
 SPADE singular values:
  1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 1.0000 0.9999
@@ -773,79 +789,80 @@ SPADE singular values:
  0.0002 0.0002 0.0002 0.0002 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001
  0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001
  0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0000
-Early stop requested!
-504 environment occs will be part of frozen-core in future post-HF calculations
- 
+Early stop requested; no embedded SCF will be performed
+
+ 504 environment occs will be part of frozen-core in future post-HF calculations
+
  --------------------------------------------------------------
- 
+
                     Orbital Energies (a.u.)
  --------------------------------------------------------------
- 
+
  Alpha MOs
  -- Occupied --
- -0.4971  -0.4582  -0.4825  -0.5279  -0.4566  -0.4803  -0.5008  -0.4663
- -0.4672  -0.4638  -0.4607  -0.4311  -0.4530  -0.4575  -0.4773  -0.4862
- -0.5213  -0.5935  -0.4705  -0.5844  -0.5293  -0.5047  -0.6358  -0.5145
- -0.5343  -0.5513  -0.6030  -0.4942  -0.5993  -0.7018  -0.6232  -0.5443
- -0.5106  -0.6039  -0.5168  -0.4903  -0.5606  -0.5228  -0.5745  -0.5094
- -0.5455  -0.5307  -0.5401  -0.5601  -0.5590  -0.6490  -0.5326  -0.5033
- -0.5047  -0.5739  -0.5387  -0.5290  -0.6562  -0.5353  -0.6127  -0.5665
- -0.6026  -0.6416  -0.5712  -0.5961  -0.6686  -0.6493  -0.7588  -0.6123
- -0.6928  -0.6673  -0.7022  -0.6766  -0.7030  -1.2280  -0.8875  -0.8889
- -0.8472  -0.9210  -0.9473  -0.7717  -0.9976  -0.9354  -1.3875  -0.8252
- -0.7820  -0.8528  -0.9048  -0.9251  -1.0163  -1.0513  -1.1564  -0.8492
- -0.9500  -1.0588  -1.6159  -1.1192  -1.7168  -0.9778  -1.6567  -1.0530
- -2.4995  -2.8639  -1.7865  -0.9978  -3.1287  -1.4013  -2.6476  -2.1651
- -1.5443  -1.0212  -1.3538  -2.5899  -0.9440  -1.4636  -1.9566  -1.1720
- -1.1195  -1.1891  -1.5600  -1.0836  -2.1199  -1.7515  -1.2663  -1.4989
- -1.3602  -1.2763  -1.3560  -1.4723  -1.3223  -1.5130  -1.9775  -1.4275
- -1.8201  -2.1119  -1.9542  -1.1874  -1.6391  -1.2583  -1.6973  -1.6764
- -1.9074  -1.6339  -1.5209  -1.5907  -1.3448  -1.5615  -1.3501  -1.5807
- -1.6011  -1.5893  -1.8009  -1.4936  -2.2725  -2.1228  -1.7811  -1.8235
- -2.0339  -2.1682  -2.4410  -1.6598  -1.8195  -2.0753  -1.5560  -1.6515
- -1.8899  -2.3826  -5.9710  -5.9043  -5.9516  -5.9237  -1.8089  -1.4922
--14.7995 -11.5107  -1.6772 -34.3023  -4.4966  -1.7921  -3.9018  -6.8891
- -2.1078  -6.6770  -1.2925  -7.1562 -10.3235  -4.3555  -1.6637 -12.4181
- -1.3899  -2.5022  -3.8339  -5.0378  -6.8886  -1.4823  -4.6233 -65.7683
- -2.8149  -1.3368  -2.3629 -76.3274  -6.5451 -10.2112  -2.3735  -1.3445
- -5.4439 -14.9518  -2.7523  -5.4680  -7.6507  -5.9392  -1.2952  -9.1902
- -6.5287  -1.1595  -7.6522 -16.6467  -4.9439  -4.0364  -3.6837  -8.9886
- -4.0150  -2.9242  -6.2034 -71.1153  -0.9855  -1.7055 -72.0026  -7.6628
- -5.0469  -6.0226 -11.3433  -4.9230  -6.4918  -4.2411  -6.8232  -9.4908
- -7.7836  -1.7741  -1.5194  -6.0124  -5.6363 -19.8487  -3.2569  -6.0652
- -8.2986  -3.0849  -9.8291  -2.8023  -1.7579  -6.4865 -44.3309 -16.7687
--14.4363  -6.2461  -2.2362  -6.9092  -9.1914  -2.5090 -54.6907  -6.2364
- -6.4969 -15.7496 -10.3667  -1.0519  -5.7528  -1.1638 -15.9544  -2.9810
- -9.1779  -4.4298 -21.6975 -42.7195  -3.8465  -5.7958 -51.0013 -51.4539
- -4.9540  -4.4950  -1.1318  -4.3813  -1.0790  -2.6970  -7.8342  -9.3916
- -5.3883  -1.8994  -2.4601 -12.7005  -8.1862 -11.1165  -6.8101 -10.5887
- -4.9180  -6.2200  -7.4619 -15.3959  -5.9546  -7.8267 -14.4008  -6.1080
- -4.6861  -7.9224 -11.5174 -17.6244 -10.2034  -3.9579  -6.6043  -3.9234
--10.0261  -9.4705  -9.9345  -6.1277  -8.9262  -7.0823  -3.5999  -5.0260
- -6.8279 -32.6151  -6.0999  -5.9590  -7.4089  -8.9133  -3.3616  -4.1315
- -9.7696  -5.5706  -3.7643 -10.7443 -14.2886  -9.5902  -8.4671  -6.2630
- -2.5067 -14.8213  -4.4693 -11.6480  -9.7851  -4.4156 -12.3456  -8.1503
--12.0035 -17.2148  -9.8831 -30.3765  -8.7646  -4.2321  -2.8907 -32.3512
--11.3305  -6.5541  -7.0917  -5.2158  -6.1420  -7.0949  -7.1531  -5.9741
- -6.6961  -7.5712  -7.5353  -7.4304  -8.9944 -12.1872  -6.4755  -6.0653
- -6.0733  -7.0600  -7.3845  -3.3088  -8.6680  -5.6166  -9.7681  -5.0051
- -4.4348  -5.8867 -16.6904  -5.9815 -20.6513 -18.9599  -5.5451  -2.9081
- -8.8025  -5.1514  -4.2181 -26.2099  -4.6342 -11.4373 -11.1271  -3.6466
- -7.1922 -24.8317 -10.2482  -5.7008  -8.7843  -3.6046  -4.8476  -4.9565
- -5.0281  -5.3898  -8.7542 -14.6349  -7.4365 -18.6823  -9.7067  -8.6747
- -5.5906  -6.4707  -4.2737  -7.0778  -7.1289 -21.8955 -21.2345  -5.7470
--20.6698  -7.8332 -10.8419 -22.0370 -23.0491  -8.1376  -6.9443  -4.1397
- -6.8919 -13.9351  -6.7819  -7.1257 -10.6847 -19.9536 -13.9708  -4.4891
--35.2606  -8.6009  -5.7010  -5.4703 -10.5925  -2.8638  -7.7980  -2.0005
- -9.0990  -3.5076 -14.8211 -13.8179  -3.0554  -7.5786  -9.2787  -1.6429
--15.7354 -22.5484 -59.7391  -8.4242  -4.1125 -66.7563 -11.9226  -7.5344
--17.1155 -11.3208 -63.3530  -6.2395 -70.1179 -74.6865  -5.7257 -15.2689
- -2.6131 -16.6741  -3.5268  -8.9505 -10.1471 -10.4714  -6.9419  -8.4143
- -8.7118  -6.8573  -6.6565  -2.0354  -8.4368 -13.5143 -22.3890  -3.7236
- -2.1231  -6.4527 -18.7663 -19.4965 -11.4566 -22.6353  -6.9987 -13.7261
--16.8607 -31.3002  -6.9002 -12.6925 -41.5949 -15.4904  -6.2063 -15.3431
- -6.8393 -13.7042 -16.5549  -9.2469  -8.6964 -19.1051  -7.8953  -2.8544
- -7.3554  -9.4257  -6.9366 -18.4319 -10.9132 -12.8407  -6.2021  -9.5754
+-89.0357 -89.0287 -89.0250 -89.0225 -89.0184 -89.0148 -89.0140 -89.0137
+-89.0117 -89.0065 -89.0061 -89.0047 -89.0013 -89.0012 -88.9988 -88.9984
+-88.9959 -88.9953 -88.9862 -88.9790 -88.9774 -88.9747 -88.9556 -88.9537
+-19.1433 -19.1398 -19.1392 -19.1335 -19.1314 -19.1301 -19.1269 -19.1237
+-19.1226 -19.1224 -19.1196 -19.1160 -19.1156 -19.1136 -19.1132 -19.1110
+-19.1094 -19.1089 -19.0992 -19.0943 -19.0921 -19.0788 -19.0773 -19.0730
+-10.2575 -10.2556 -10.2524 -10.2464 -10.2412 -10.2404 -10.2330 -10.2324
+-10.2316 -10.2307 -10.2305 -10.2296 -10.2289 -10.2284 -10.2261 -10.2246
+-10.2234 -10.2232 -10.2231 -10.2226 -10.2216 -10.2184 -10.2179 -10.2177
+-10.2177 -10.2174 -10.2168 -10.2158 -10.2152 -10.2133 -10.2133 -10.2118
+-10.2111 -10.2060 -10.2048 -10.2038 -10.1990 -10.1986 -10.1985 -10.1982
+-10.1960 -10.1939 -10.1895 -10.1841 -10.1799 -10.1789 -10.1702 -10.1638
+ -8.0813  -8.0753  -8.0712  -8.0677  -8.0642  -8.0606  -8.0596  -8.0586
+ -8.0580  -8.0529  -8.0520  -8.0502  -8.0470  -8.0463  -8.0449  -8.0448
+ -8.0421  -8.0413  -8.0321  -8.0243  -8.0236  -8.0207  -8.0023  -7.9993
+ -6.0458  -6.0446  -6.0395  -6.0385  -6.0381  -6.0356  -6.0344  -6.0330
+ -6.0324  -6.0305  -6.0286  -6.0285  -6.0272  -6.0253  -6.0248  -6.0238
+ -6.0235  -6.0230  -6.0226  -6.0224  -6.0219  -6.0217  -6.0208  -6.0183
+ -6.0172  -6.0170  -6.0164  -6.0162  -6.0162  -6.0157  -6.0152  -6.0148
+ -6.0130  -6.0113  -6.0108  -6.0103  -6.0101  -6.0095  -6.0095  -6.0092
+ -6.0091  -6.0080  -6.0079  -6.0078  -6.0066  -6.0057  -6.0052  -6.0043
+ -6.0043  -6.0037  -6.0024  -6.0023  -5.9990  -5.9989  -5.9965  -5.9953
+ -5.9894  -5.9886  -5.9880  -5.9875  -5.9867  -5.9849  -5.9839  -5.9818
+ -5.9808  -5.9783  -5.9665  -5.9652  -5.9638  -5.9624  -5.9598  -5.9567
+ -1.0535  -1.0519  -1.0501  -1.0434  -1.0431  -1.0407  -1.0392  -1.0360
+ -1.0337  -1.0321  -1.0279  -1.0269  -1.0263  -1.0251  -1.0222  -1.0218
+ -1.0203  -1.0188  -1.0082  -1.0027  -0.9999  -0.9971  -0.9855  -0.9791
+ -0.8412  -0.8351  -0.8274  -0.8188  -0.8178  -0.8174  -0.8113  -0.8100
+ -0.8098  -0.8094  -0.8089  -0.8087  -0.8075  -0.8025  -0.8021  -0.7975
+ -0.7955  -0.7890  -0.7889  -0.7835  -0.7829  -0.7692  -0.7685  -0.7636
+ -0.7616  -0.7603  -0.7495  -0.7429  -0.7398  -0.7397  -0.7364  -0.7347
+ -0.7344  -0.7331  -0.7329  -0.7321  -0.7312  -0.7301  -0.7262  -0.7254
+ -0.7221  -0.7140  -0.7132  -0.7114  -0.7048  -0.7026  -0.6879  -0.6805
+ -0.6487  -0.6430  -0.6413  -0.6323  -0.6317  -0.6292  -0.6288  -0.6269
+ -0.6214  -0.6214  -0.6181  -0.6163  -0.6144  -0.6143  -0.6115  -0.6092
+ -0.6068  -0.6048  -0.5993  -0.5954  -0.5904  -0.5881  -0.5689  -0.5633
+ -0.5190  -0.5138  -0.5095  -0.5078  -0.5011  -0.4987  -0.4977  -0.4956
+ -0.4948  -0.4944  -0.4939  -0.4929  -0.4924  -0.4905  -0.4891  -0.4887
+ -0.4878  -0.4876  -0.4870  -0.4854  -0.4854  -0.4840  -0.4837  -0.4833
+ -0.4821  -0.4814  -0.4809  -0.4799  -0.4794  -0.4788  -0.4780  -0.4773
+ -0.4768  -0.4766  -0.4754  -0.4746  -0.4730  -0.4729  -0.4725  -0.4699
+ -0.4688  -0.4677  -0.4674  -0.4668  -0.4659  -0.4653  -0.4651  -0.4639
+ -0.4637  -0.4628  -0.4612  -0.4597  -0.4594  -0.4591  -0.4582  -0.4575
+ -0.4574  -0.4564  -0.4547  -0.4539  -0.4531  -0.4526  -0.4511  -0.4507
+ -0.4488  -0.4482  -0.4476  -0.4449  -0.4433  -0.4430  -0.4428  -0.4419
+ -0.4416  -0.4403  -0.4400  -0.4396  -0.4387  -0.4378  -0.4372  -0.4362
+ -0.4344  -0.4342  -0.4338  -0.4323  -0.4319  -0.4304  -0.4301  -0.4295
+ -0.4284  -0.4273  -0.4271  -0.4258  -0.4256  -0.4249  -0.4236  -0.4234
+ -0.4211  -0.4197  -0.4195  -0.4180  -0.4175  -0.4164  -0.4161  -0.4156
+ -0.4152  -0.4128  -0.4122  -0.4116  -0.4105  -0.4098  -0.4088  -0.4086
+ -0.4083  -0.4069  -0.4067  -0.4063  -0.4056  -0.4052  -0.4025  -0.4018
+ -0.4001  -0.3993  -0.3978  -0.3970  -0.3968  -0.3966  -0.3961  -0.3952
+ -0.3948  -0.3942  -0.3935  -0.3921  -0.3911  -0.3896  -0.3881  -0.3879
+ -0.3870  -0.3867  -0.3836  -0.3834  -0.3831  -0.3794  -0.3789  -0.3780
+ -0.3755  -0.3740  -0.3732  -0.3723  -0.3702  -0.3695  -0.3690  -0.3676
+ -0.3670  -0.3657  -0.3651  -0.3649  -0.3622  -0.3601  -0.3591  -0.3567
+ -0.3547  -0.3487  -0.3457  -0.3407  -0.3397  -0.3353  -0.3249  -0.3155
+ -0.3047  -0.2993  -0.2950  -0.2950  -0.2926  -0.2912  -0.2850  -0.2846
+ -0.2835  -0.2827  -0.2796  -0.2774  -0.2767  -0.2742  -0.2741  -0.2735
+ -0.2725  -0.2720  -0.2702  -0.2694  -0.2687  -0.2616  -0.2604  -0.2597
+ -0.2588  -0.2579  -0.2547  -0.2547  -0.2534  -0.2524  -0.2510  -0.2443
+ -0.2443  -0.2426  -0.2411  -0.2400  -0.2395  -0.2387  -0.2369  -0.2354
+ -0.2321  -0.2310  -0.2245  -0.2185  -0.2146  -0.2118  -0.2029  -0.1935
 -10.2057 -13.1415 -10.7676 -10.4457 -15.0771 -13.6292 -10.3210 -10.3501
 -10.1883  -0.7740  -0.7381  -0.5380  -0.7400  -0.9541  -0.6277  -0.6119
  -0.4866  -0.8474  -0.4284  -0.4951  -0.4175  -0.3865  -0.4634  -0.4186
@@ -1087,7 +1104,7 @@ Early stop requested!
   4.5365   4.5709   4.5802   4.5991   4.6435   4.6924   4.7152   4.7991
   4.8397
  --------------------------------------------------------------
- 
+
           Ground-State Mulliken Net Atomic Charges
 
      Atom                 Charge (a.u.)
@@ -1361,7 +1378,7 @@ Early stop requested!
                     Cartesian Multipole Moments
  -----------------------------------------------------------------
     Charge (ESU x 10^10)
-                 0.0000
+                -0.0000
     Dipole Moment (Debye)
          X     -17.7899      Y      -6.2080      Z     -18.6051
        Tot      26.4796
@@ -1380,11 +1397,8 @@ Early stop requested!
       XXZZ ************   XYZZ ************   YYZZ ************
       XZZZ ************   YZZZ ************   ZZZZ ************
  -----------------------------------------------------------------
-Archival summary:
-1\1\node027\SP\ProcedureUnspecified\6-31+G*\2425155\ymao90\FriDec314:49:232021FriDec314:49:232021\0\\#,ProcedureUnspecified,6-31+G*,\\0,1\S\O,1,1.49693\C,1,1.80699,2,102.007\H,3,1.09267,1,109.201,2,-48.6539,0\H,3,1.09302,1,110.227,2,-173.072,0\H,3,1.09352,1,115.576,2,71.1784,0\C,1,1.80766,2,104.713,3,99.4415,0\H,7,1.09244,1,105.306,2,-162.857,0\H,7,1.0927,1,100.729,2,79.8285,0\H,7,1.09278,1,112.104,2,-38.3005,0\H,10,1.98666,7,105.042,1,140.312,0\C,11,1.09324,10,128.988,7,-153.626,0\H,12,1.09265,11,114.326,10,-113.767,0\H,12,1.09309,11,106.473,10,10.9542,0\S,12,1.8073,11,108.7,10,125.586,0\O,15,1.49717,12,105.117,11,159.89,0\C,15,1.80627,12,93.5696,11,50.1355,0\H,17,1.09275,15,112.749,12,38.1433,0\H,17,1.09309,15,107.293,12,-80.8708,0\H,17,1.09341,15,112.04,12,155.512,0\H,20,2.14846,17,117.424,15,155.753,0\C,21,1.09255,20,117.815,17,161.599,0\H,22,1.09306,21,109.305,20,-160.371,0\H,22,1.09359,21,108.419,20,73.8593,0\S,22,1.80724,21,117.766,20,-45.3977,0\O,25,1.49759,22,100.619,21,52.0421,0\C,25,1.80737,22,97.6858,21,-59.2234,0\H,27,1.0923,25,114.523,22,-179.724,0\H,27,1.09259,25,112.45,22,-53.7214,0\H,27,1.09336,25,110.744,22,63.4743,0\H,5,2.44715,3,132.199,1,-82.1107,0\C,31,1.09365,5,90.7335,3,-105.566,0\H,32,1.09256,31,112.879,5,-72.8337,0\H,32,1.09328,31,110.532,5,51.8106,0\S,32,1.80648,31,110.797,5,169.674,0\O,35,1.49709,32,100.239,31,19.2449,0\C,35,1.80672,32,97.2028,31,-88.1763,0\H,37,1.09262,35,108.191,32,48.362,0\H,37,1.09291,35,109.641,32,-73.4395,0\H,37,1.09317,35,104.767,32,173.321,0\O,9,2.52929,7,105.553,1,108.948,0\S,41,1.49619,9,158.329,7,-20.1293,0\C,42,1.80686,41,99.5124,9,168.789,0\H,43,1.09288,42,111.572,41,34.208,0\H,43,1.09309,42,106.346,41,-90.8003,0\H,43,1.09335,42,110.774,41,156.564,0\C,42,1.80806,41,104.741,9,-94.7249,0\H,47,1.09268,42,114.808,41,-40.2561,0\H,47,1.09286,42,109.421,41,77.5921,0\H,47,1.09327,42,108.921,41,-163.232,0\H,48,2.27255,47,158.711,42,-25.2498,0\C,51,1.09702,48,121.244,47,151.901,0\H,52,1.0968,51,109.004,48,115.475,0\C,52,1.5372,51,107.376,48,-123.785,0\H,54,1.09678,52,105.967,51,-47.7737,0\H,54,1.09731,52,110.528,51,-160.432,0\C,54,1.53749,52,116.12,51,75.4773,0\H,57,1.09694,54,110.167,52,176.087,0\H,57,1.09761,54,100.115,52,-63.6608,0\C,57,1.53711,54,113.758,52,51.7299,0\H,60,1.09681,57,108.233,54,69.8398,0\H,60,1.09733,57,107.362,54,-171.746,0\C,52,1.53798,51,111.336,48,-3.18893,0\H,63,1.09606,52,107.135,51,49.5079,0\H,63,1.09695,52,106.858,51,160.805,0\C,63,1.53724,52,116.818,51,-75.4618,0\H,66,1.09744,63,108.956,52,66.4349,0\N,66,1.46157,63,110.969,52,-169.891,0\H,68,1.01312,66,118.885,63,60.9737,0\C,68,1.37838,66,122.891,63,-111.69,0\H,70,1.10549,68,115.723,66,178.099,0\O,70,1.21864,68,124.406,66,1.90296,0\O,69,1.87043,68,164.511,66,-131.295,0\S,73,1.49759,69,143.108,68,-11.1727,0\C,74,1.80648,73,107.091,69,-40.5687,0\H,75,1.09321,74,108.357,73,167.213,0\H,75,1.09325,74,110.355,73,41.0813,0\H,75,1.09378,74,111.22,73,-73.4382,0\C,74,1.80756,73,99.9943,69,52.7695,0\H,79,1.09208,74,110.471,73,-52.582,0\H,79,1.09312,74,112.44,73,-175.912,0\H,79,1.09341,74,112.751,73,57.0891,0\O,71,2.04761,70,144.942,68,134.694,0\S,83,1.49651,71,131.496,70,-4.91589,0\C,84,1.80705,83,102.549,71,44.3072,0\H,85,1.09296,84,112.158,83,-168.903,0\H,85,1.09307,84,105.072,83,-53.3379,0\H,85,1.09386,84,106.891,83,66.489,0\C,84,1.80789,83,106.311,71,138.41,0\H,89,1.09264,84,110.865,83,-46.6562,0\H,89,1.0928,84,108.483,83,67.6492,0\H,89,1.09282,84,101.282,83,-165.01,0\H,65,2.10846,63,147.865,52,60.1371,0\C,93,1.09334,65,122.612,63,-167.445,0\H,94,1.09283,93,104.103,65,24.1425,0\H,94,1.09322,93,118.423,65,-88.1168,0\S,94,1.80691,93,113.246,65,142.093,0\O,97,1.49797,94,105.855,93,53.8503,0\C,97,1.80713,94,94.7532,93,-50.9134,0\H,99,1.09238,97,108.601,94,170.944,0\H,99,1.09304,97,96.4997,94,53.8084,0\H,99,1.09358,97,109.367,94,-62.1871,0\H,88,2.16444,85,105.544,84,-138.374,0\C,103,1.09313,88,136.91,85,-91.3981,0\H,104,1.09288,103,122.999,88,-42.0007,0\H,104,1.09337,103,113.634,88,83.2148,0\S,104,1.80686,103,98.8851,88,-159.214,0\O,107,1.49721,104,109.802,103,146.263,0\C,107,1.8068,104,100.636,103,36.9162,0\H,109,1.09251,107,106.855,104,165.394,0\H,109,1.09282,107,106.549,104,44.8491,0\H,109,1.09354,107,105.781,104,-79.1082,0\H,73,2.24713,69,88.145,68,-118.792,0\C,113,1.09263,73,149.518,69,154.039,0\H,114,1.09285,113,115.815,73,14.534,0\H,114,1.09312,113,107.891,73,135.195,0\S,114,1.80742,113,104.504,73,-115.535,0\O,117,1.49629,114,102.251,113,-169.476,0\C,117,1.80761,114,96.897,113,-59.5672,0\H,119,1.09256,117,106.499,114,-70.0088,0\H,119,1.09313,117,108.752,114,164.91,0\H,119,1.0936,117,103.92,114,47.2458,0\H,116,2.15187,114,113.947,113,-2.8716,0\C,123,1.09243,116,122.051,114,-69.558,0\H,124,1.09282,123,112.269,116,113.394,0\H,124,1.09289,123,113.357,116,-10.8391,0\S,124,1.80737,123,102.588,116,-130.603,0\O,127,1.49699,124,100.361,123,-13.6157,0\C,127,1.80682,124,97.4657,123,-111.293,0\H,129,1.09265,127,114.3,124,175.67,0\H,129,1.09319,127,112.201,124,-61.2298,0\H,129,1.09358,127,108.302,124,59.7538,0\H,120,2.15481,119,127.485,117,-154.169,0\C,133,1.0929,120,148.314,119,-150.053,0\H,134,1.09275,133,107.972,120,-126.379,0\H,134,1.09335,133,114.158,120,-5.10033,0\S,134,1.80714,133,107.562,120,117.063,0\O,137,1.49654,134,107.837,133,-173.29,0\C,137,1.8069,134,93.0335,133,-66.1249,0\H,139,1.09248,137,107.436,134,45.5187,0\H,139,1.09307,137,115.261,134,169.441,0\H,139,1.09311,137,104.084,134,-74.2588,0\H,102,2.33493,99,142.883,97,-131.599,0\C,143,1.09305,102,163.354,99,30.8122,0\H,144,1.09278,143,115.204,102,-53.3324,0\H,144,1.0937,143,105.735,102,81.3494,0\S,144,1.80723,143,104.23,102,-171.732,0\O,147,1.49719,144,104.296,143,-73.9397,0\C,147,1.80632,144,90.1258,143,-175.312,0\H,149,1.09304,147,102.069,144,-84.3559,0\H,149,1.09307,147,115.445,144,24.4637,0\H,149,1.09342,147,106.303,144,154.329,0\H,146,2.33237,144,120.842,143,23.0256,0\C,153,1.09264,146,141.025,144,125.711,0\H,154,1.09268,153,102.43,146,97.0753,0\H,154,1.09382,153,110.457,146,-22.2431,0\S,154,1.8069,153,106.188,146,-146.243,0\O,157,1.49706,154,104.873,153,-51.2194,0\C,157,1.8071,154,91.5141,153,45.8522,0\H,159,1.09251,157,110.693,154,-58.5627,0\H,159,1.0927,157,106.735,154,62.4505,0\H,159,1.09287,157,111.539,154,-178.74,0\H,111,2.35933,109,137.434,107,34.6752,0\C,163,1.0933,111,106.928,109,170.674,0\H,164,1.09268,163,112.692,111,-148.057,0\H,164,1.09309,163,111.631,111,-28.609,0\S,164,1.80718,163,109.189,111,103.1,0\O,167,1.49657,164,99.5698,163,-54.3314,0\C,167,1.80768,164,89.1384,163,-159.987,0\H,169,1.09277,167,109.787,164,39.1919,0\H,169,1.09284,167,103.311,164,164.233,0\H,169,1.09344,167,107.761,164,-72.5129,0\H,121,2.3656,119,110.302,117,28.9514,0\C,173,1.09278,121,128.7,119,107.721,0\H,174,1.09354,173,110.569,121,11.9907,0\H,174,1.09354,173,111.51,121,-98.3793,0\S,174,1.80665,173,110.727,121,137.678,0\O,177,1.49721,174,103.912,173,58.2925,0\C,177,1.80742,174,97.7117,173,164.131,0\H,179,1.09209,177,107.705,174,-42.6911,0\H,179,1.0928,177,111.036,174,-161.607,0\H,179,1.09296,177,111.143,174,86.9575,0\H,131,2.39079,129,122.793,127,-103.315,0\C,183,1.09352,131,129.741,129,-32.2471,0\H,184,1.09263,183,104.928,131,170.079,0\H,184,1.0931,183,97.7673,131,51.9684,0\S,184,1.80708,183,112.407,131,-67.5795,0\O,187,1.49699,184,110.511,183,52.2121,0\C,187,1.80684,184,100.679,183,151.017,0\H,189,1.0924,187,103.34,184,72.4273,0\H,189,1.09291,187,112.734,184,-44.6884,0\H,189,1.09363,187,112.442,184,-177.741,0\O,145,2.40604,144,126.594,143,-73.8936,0\S,193,1.49744,145,136.802,144,49.7324,0\C,194,1.80651,193,99.1457,145,80.254,0\H,195,1.09285,194,119.635,193,-162.048,0\H,195,1.09289,194,104.281,193,-46.2916,0\H,195,1.09314,194,105.691,193,67.7624,0\C,194,1.80714,193,102.135,145,-15.5739,0\H,199,1.09269,194,110.106,193,38.6473,0\H,199,1.09289,194,102.553,193,-77.6088,0\H,199,1.09294,194,116.612,193,164.294,0\H,192,2.4161,189,136.054,187,45.9262,0\C,203,1.09277,192,110.329,189,170.743,0\H,204,1.09261,203,111.469,192,-158.089,0\H,204,1.09322,203,111.261,192,-36.4313,0\S,204,1.80685,203,115.255,192,75.5819,0\O,207,1.49673,204,105.497,203,64.5317,0\C,207,1.80671,204,95.4385,203,168.429,0\H,209,1.09301,207,105.96,204,70.2892,0\H,209,1.09322,207,102.036,204,179.241,0\H,209,1.09391,207,110.539,204,-56.1493,0\H,206,2.43943,204,104.878,203,-32.3619,0\C,213,1.09324,206,124.399,204,-26.9246,0\H,214,1.0928,213,114.378,206,-38.8943,0\H,214,1.09381,213,111.344,206,89.0105,0\S,214,1.80704,213,103.041,206,-159.911,0\O,217,1.49651,214,101.701,213,-64.1947,0\C,217,1.80648,214,93.8313,213,-170.888,0\H,219,1.0928,217,106.498,214,61.4792,0\H,219,1.09317,217,100.294,214,-177.642,0\H,219,1.0934,217,106.379,214,-61.1909,0\H,161,2.48684,159,115.596,157,149.876,0\C,223,1.0934,161,107.052,159,124.526,0\H,224,1.09245,223,114.534,161,54.1416,0\H,224,1.09271,223,101.423,161,-67.0432,0\S,224,1.80727,223,108.273,161,179.585,0\O,227,1.49717,224,104.239,223,62.2338,0\C,227,1.80684,224,93.6126,223,-43.806,0\H,229,1.09265,227,106.286,224,-34.659,0\H,229,1.09295,227,111.202,224,79.5977,0\H,229,1.09315,227,113.049,224,-156.806,0\H,231,1.93191,229,131.305,227,-127.193,0\C,233,1.09317,231,160.478,229,-34.1468,0\H,234,1.09286,233,110.378,231,-41.6886,0\H,234,1.09301,233,112.965,231,-167.592,0\S,234,1.80733,233,111.711,231,79.0698,0\O,237,1.49692,234,102.979,233,-36.2132,0\C,237,1.80647,234,98.5379,233,-146.623,0\H,239,1.0926,237,112.85,234,50.6789,0\H,239,1.0933,237,116.608,234,-176.753,0\H,239,1.09362,237,101.093,234,-64.8911,0\H,242,2.35273,239,161.48,237,64.8852,0\C,243,1.09334,242,111.135,239,-118.493,0\H,244,1.09266,243,108.08,242,63.1948,0\H,244,1.09338,243,106.893,242,-51.0949,0\S,244,1.80722,243,112.687,242,-173.041,0\O,247,1.4974,244,102.4,243,167.149,0\C,247,1.80681,244,99.7153,243,-86.2782,0\H,249,1.09202,247,99.2028,244,91.3619,0\H,249,1.0924,247,107.346,244,-30.8573,0\H,249,1.09384,247,112.362,244,-154.103,0\H,228,2.58915,227,107.261,224,97.8783,0\C,253,1.09296,228,118.789,227,31.0972,0\H,254,1.09257,253,103.071,228,-52.4012,0\H,254,1.09314,253,118.499,228,-164.426,0\S,254,1.80666,253,113.766,228,64.6177,0\O,257,1.49717,254,104.485,253,83.1953,0\C,257,1.80693,254,93.9421,253,-174.263,0\H,259,1.09277,257,114.086,254,44.5998,0\H,259,1.0928,257,115.761,254,178.465,0\H,259,1.09307,257,110.064,254,-64.6648,0\\\@
-
- Total job time:  9635.60s(wall), 150379.50s(cpu) 
- Fri Dec  3 14:49:23 2021
+ Total job time:  15383.59s(wall), 217420.56s(cpu) 
+ Thu Jul 21 08:01:10 2022
 
         *************************************************************
         *                                                           *
@@ -1400,82 +1414,102 @@ User input: 2 of 2
      A Quantum Leap Into The Future Of Chemistry
 
 
- Q-Chem 5.2 (devel), Q-Chem, Inc., Pleasanton, CA (2019)
+ Q-Chem 6.0 (devel), Q-Chem, Inc., Pleasanton, CA (2022)
 
- Yihan Shao,  Zhengting Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
- J. Kussmann,  A. W. Lange,  A. Behn,  Jia Deng,  Xintian Feng,  D. Ghosh,  
- M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  T. Kus,  A. Landau,  
- Jie Liu,  E. I. Proynov,  R. M. Richard,  R. P. Steele,  E. J. Sundstrom,  
- H. L. Woodcock III,  P. M. Zimmerman,  D. Zuev,  B. Alam,  B. Albrecht,  
- E. Alguire,  S. A. Baeppler,  D. Barton,  Z. Benda,  Y. A. Bernard,  
- E. J. Berquist,  K. B. Bravaya,  H. Burton,  K. Carter-Fenk,  D. Casanova,  
- Chun-Min Chang,  Yunqing Chen,  A. Chien,  K. D. Closser,  M. P. Coons,  
- S. Coriani,  S. Dasgupta,  A. L. Dempwolff,  M. Diedenhofen,  Hainam Do,  
- R. G. Edgar,  Po-Tung Fang,  S. Faraji,  S. Fatehi,  Qingguo Feng,  
- J. Fosso-Tande,  J. Gayvert,  Qinghui Ge,  A. Ghysels,  G. Gidofalvi,  
- J. Gomes,  J. Gonthier,  A. Gunina,  D. Hait,  M. W. D. Hanson-Heine,  
- P. H. P. Harbach,  A. W. Hauser,  M. F. Herbst,  J. E. Herr,  
- E. G. Hohenstein,  Z. C. Holden,  Kerwin Hui,  B. C. Huynh,  T.-C. Jagau,  
- Hyunjun Ji,  B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  P. Klunzinger,  K. Koh,  
- D. Kosenkov,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  A. Kunitsa,  
- Ka Un Lao,  A. Laurent,  K. V. Lawler,  Joonho Lee,  D. Lefrancois,  
- S. Lehtola,  D. S. Levine,  Yi-Pei Li,  You-Sheng Lin,  Fenglai Liu,  
- Kuan-Yu Liu,  E. Livshits,  M. Loipersberger,  A. Luenser,  P. Manohar,  
- E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  Yuezhi Mao,  N. Mardirossian,  
- A. V. Marenich,  T. Markovich,  L. A. Martinez-Martinez,  S. A. Maurer,  
- N. J. Mayhall,  S. C. McKenzie,  J.-M. Mewes,  P. Morgante,  A. F. Morrison,  
- J. W. Mullinax,  K. Nanda,  T. S. Nguyen-Beck,  R. Olivares-Amaya,  
- J. A. Parkhill,  S. K. Paul,  F. Pavosevic,  Zheng Pei,  T. M. Perrine,  
- F. Plasser,  P. Pokhilko,  S. Prager,  A. Prociuk,  E. Ramos,  B. Rana,  
- D. R. Rehn,  F. Rob,  M. Scheurer,  M. Schneider,  N. Sergueev,  
- S. M. Sharada,  S. Sharma,  D. W. Small,  T. Stauch,  C. J. Stein,  
- T. Stein,  Yu-Chuan Su,  S. P. Veccham,  Zhen Tao,  A. J. W. Thom,  
- A. Tkatchenko,  T. Tsuchimochi,  N. M. Tubman,  L. Vogt,  M. L. Vidal,  
- O. Vydrov,  M. A. Watson,  J. Wenzel,  M. de Wergifosse,  T. A. Wesolowski,  
- A. White,  J. Witte,  A. Yamada,  Jun Yang,  K. Yao,  S. Yeganeh,  
- S. R. Yost,  Zhi-Qiang You,  A. Zech,  Igor Ying Zhang,  Xing Zhang,  
- Yan Zhao,  Ying Zhu,  B. R. Brooks,  G. K. L. Chan,  C. J. Cramer,  
- M. S. Gordon,  W. J. Hehre,  A. Klamt,  M. W. Schmidt,  C. D. Sherrill,  
- D. G. Truhlar,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
- Jeng-Da Chai,  A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  
- B. D. Dunietz,  T. R. Furlani,  Chao-Ping Hsu,  Yousung Jung,  Jing Kong,  
- D. S. Lambrecht,  WanZhen Liang,  C. Ochsenfeld,  V. A. Rassolov,  
- L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  J. M. Herbert,  
- A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  B. Alam,  B. Albrecht,  
+ A. Aldossary,  E. Alguire,  J. H. Andersen,  V. Athavale,  D. Barton,  
+ K. Begam,  A. Behn,  N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  
+ H. Burton,  A. Carreras,  K. Carter-Fenk,  Romit Chakraborty,  
+ Chandrima Chakravarty,  Junhan Chen,  A. D. Chien,  K. D. Closser,  
+ V. Cofer-Shabica,  L. Cunha,  S. Dasgupta,  Jia Deng,  M. de Wergifosse,  
+ M. Diedenhofen,  Hainam Do,  S. Ehlert,  Po-Tung Fang,  S. Fatehi,  
+ Qingguo Feng,  T. Friedhoff,  B. Ganoe,  J. Gayvert,  Qinghui Ge,  
+ G. Gidofalvi,  M. Goldey,  J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  
+ A. Gunina,  J. A. Gyamfi,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  
+ A. W. Hauser,  M. F. Herbst,  M. Hernandez Vera,  M. Hodecker,  
+ Z. C. Holden,  S. Houck,  Xunkun Huang,  Kerwin Hui,  B. C. Huynh,  
+ K. Ikeda,  M. Ivanov,  Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  B. Kaduk,  
+ S. Kaehler,  R. Kang,  K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  
+ P. Klunzinger,  Z. Koczor-Benda,  Joong Hoon Koh,  D. Kosenkov,  
+ Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  K. Kue,  
+ A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  S. Lehtola,  
+ Rain Li,  Shaozhi Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  
+ M. Loipersberger,  A. Luenser,  C. Malbon,  A. Manjanath,  P. Manohar,  
+ E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  T. Markovich,  
+ S. Mason,  F. Matz,  S. A. Maurer,  P. F. McLaughlin,  M. F. S. J. Menger,  
+ J.-M. Mewes,  S. A. Mewes,  P. Morgante,  Mohammad Mostafanejad,  
+ J. W. Mullinax,  K. J. Oosterbaan,  G. Paran,  V. Parravicini,  
+ Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  Zheng Pei,  S. Prager,  
+ E. I. Proynov,  E. Ramos,  B. Rana,  A. E. Rask,  A. Rettig,  R. M. Richard,  
+ F. Rob,  E. Rossomme,  T. Scheele,  M. Scheurer,  M. Schneider,  
+ P. E. Schneider,  N. Sergueev,  S. M. Sharada,  Hengyuan Shen,  
+ W. Skomorowski,  D. W. Small,  C. J. Stein,  Yingli Su,  Yu-Chuan Su,  
+ E. J. Sundstrom,  Zhen Tao,  J. Thirman,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  J. Wenzel,  
+ Jonathan Wong,  J. Witte,  A. Yamada,  Chou-Hsun Yang,  Kun Yao,  
+ S. Yeganeh,  S. R. Yost,  A. Zech,  F. Zeller,  Igor Ying Zhang,  
+ Xing Zhang,  Yu Zhang,  D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  
+ N. A. Besley,  K. B. Bravaya,  B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  
+ Hsing-Ta Chen,  S. Coriani,  C. J. Cramer,  A. E. DePrince, III,  
+ R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  
+ W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  T. Head-Gordon,  
+ W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  A. Klamt,  
+ Jing Kong,  D. S. Lambrecht,  Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  T. Neudecker,  C. Ochsenfeld,  
+ J. A. Parkhill,  R. Peverati,  V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  
+ L. V. Slipchenko,  R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  
+ A. Tkatchenko,  D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  
+ T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  P. M. Zimmerman,  
+ S. Faraji,  P. M. W. Gill,  M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
 
  Contributors to earlier versions of Q-Chem not listed above: 
- R. D. Adamson,  B. Austin,  J. Baker,  G. J. O. Beran,  K. Brandhorst,  
- S. T. Brown,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
  Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
- R. J. Doerksen,  A. D. Dutoi,  L. Fusti-Molnar,  W. A. Goddard III,  
- A. Golubeva-Zadorozhnaya,  S. R. Gwaltney,  G. Hawkins,  A. Heyden,  
- S. Hirata,  G. Kedziora,  F. J. Keil,  C. Kelley,  Jihan Kim,  R. A. King,  
- R. Z. Khaliullin,  P. P. Korambath,  W. Kurlancheek,  A. M. Lee,  M. S. Lee,  
- S. V. Levchenko,  Ching Yeh Lin,  D. Liotard,  R. C. Lochan,  I. Lotan,  
- P. E. Maslen,  N. Nair,  D. P. O'Neill,  D. Neuhauser,  E. Neuscamman,  
- C. M. Oana,  R. Olson,  B. Peters,  R. Peverati,  P. A. Pieniazek,  
- Y. M. Rhee,  J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  
- H. F. Schaefer III,  N. E. Schultz,  N. Shenvi,  A. C. Simmonett,  A. Sodt,  
- D. Stuck,  K. S. Thanthiriwatte,  V. Vanovschi,  Tao Wang,  A. Warshel,  
- C. F. Williams,  Q. Wu,  X. Xu,  W. Zhang
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
 
- Please cite Q-Chem as follows:
- Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
- DOI: 10.1080/00268976.2014.952696
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
 
- Q-Chem 5.2.2 for Intel X86 EM64T Linux
+ Q-Chem 6.0.0 for Intel X86 EM64T Linux
 
- Parts of Q-Chem use Armadillo 9.800.1 (Horizon Scraper).
+ Parts of Q-Chem use Armadillo 9.900.5 (Nocturnal Misbehaviour).
  http://arma.sourceforge.net/
 
- Q-Chem begins on Fri Dec  3 14:49:25 2021  
+ Q-Chem begins on Thu Jul 21 08:01:11 2022  
 
-Host: node027
+ Host: nid00523
 0
 
-     Scratch files written to /home/ymao90/scratch/r7.00_frame_0018_spade_B3LYP_dp20211203120846//
+     Scratch files written to /global/cscratch1/sd/ymao90/r7.00_frame_0018_spade_B3LYP_dp20220721031338//
+ Processing $rem in /global/homes/y/ymao90/my_qchem/qchem_embedding_5p4/config/preferences:
+ Processing $rem in /global/homes/y/ymao90/.qchemrc:
 
-Checking the input file for inconsistencies... 	...done.
+ Checking the input file for inconsistencies... 	...done.
 
 --------------------------------------------------------------
 User input:
@@ -1753,18 +1787,17 @@ METHOD  B3LYP
 BASIS  6-31+G(D)
 SYMMETRY  FALSE
 SYM_IGNORE  TRUE
-MEM_TOTAL  16000
-MEM_STATIC  8000
-MAX_SUB_FILE_NUM  16000
+MEM_TOTAL  12000
+MEM_STATIC  4000
 BASIS_LIN_DEP_THRESH  6
 THRESH  14
 SCF_CONVERGENCE  8
-GEN_SCFMAN  FALSE
-SCF_GUESS  READ
 FD_MAT_VEC_PROD  FALSE
 XC_GRID  000075000302
 NL_GRID  1
 MAX_SCF_CYCLES  200
+SCF_GUESS  READ
+GEN_SCFMAN  FALSE
 SKIP_SCFMAN  TRUE
 ESP_GRID  0
 ESP_EFIELD  1
@@ -2042,9 +2075,10 @@ $end
  Requested basis set is 6-31+G(d)
  There are 863 shells and 2405 basis functions
 
- Total QAlloc Memory Limit  16000 MB
- Mega-Array Size      7821 MB
- MEM_STATIC part      8000 MB
+ Total QAlloc Memory Limit  12000 MB
+ Mega-Array Size      3911 MB
+ MEM_STATIC part      4000 MB
+
  A cutoff of  1.0D-14 yielded 149916 shell pairs
  There are   1281160 function pairs
  Smallest overlap matrix eigenvalue = 4.64E-07
@@ -2052,7 +2086,7 @@ $end
  Tighter screening thresholds may be required for diffuse basis sets
  Use S2THRESH > 14 and THRESH = 14 in case of SCF convergence issues
  Number of orthogonalized atomic orbitals = 2404
- Maximum deviation from orthogonality = 2.766E-10
+ Maximum deviation from orthogonality = 3.177E-10
 
  Scale SEOQF with 1.000000e-03/1.000000e-03/1.000000e-03
 
@@ -2061,77 +2095,79 @@ $end
  Guess MOs from SCF MO coefficient file
  Reading MOs from coefficient file
  Reading MOs from coefficient file
- 
+
+ Skipping old scfman as requested.
+
  --------------------------------------------------------------
- 
+
                     Orbital Energies (a.u.)
  --------------------------------------------------------------
- 
+
  Alpha MOs
  -- Occupied --
- -0.4971  -0.4582  -0.4825  -0.5279  -0.4566  -0.4803  -0.5008  -0.4663
- -0.4672  -0.4638  -0.4607  -0.4311  -0.4530  -0.4575  -0.4773  -0.4862
- -0.5213  -0.5935  -0.4705  -0.5844  -0.5293  -0.5047  -0.6358  -0.5145
- -0.5343  -0.5513  -0.6030  -0.4942  -0.5993  -0.7018  -0.6232  -0.5443
- -0.5106  -0.6039  -0.5168  -0.4903  -0.5606  -0.5228  -0.5745  -0.5094
- -0.5455  -0.5307  -0.5401  -0.5601  -0.5590  -0.6490  -0.5326  -0.5033
- -0.5047  -0.5739  -0.5387  -0.5290  -0.6562  -0.5353  -0.6127  -0.5665
- -0.6026  -0.6416  -0.5712  -0.5961  -0.6686  -0.6493  -0.7588  -0.6123
- -0.6928  -0.6673  -0.7022  -0.6766  -0.7030  -1.2280  -0.8875  -0.8889
- -0.8472  -0.9210  -0.9473  -0.7717  -0.9976  -0.9354  -1.3875  -0.8252
- -0.7820  -0.8528  -0.9048  -0.9251  -1.0163  -1.0513  -1.1564  -0.8492
- -0.9500  -1.0588  -1.6159  -1.1192  -1.7168  -0.9778  -1.6567  -1.0530
- -2.4995  -2.8639  -1.7865  -0.9978  -3.1287  -1.4013  -2.6476  -2.1651
- -1.5443  -1.0212  -1.3538  -2.5899  -0.9440  -1.4636  -1.9566  -1.1720
- -1.1195  -1.1891  -1.5600  -1.0836  -2.1199  -1.7515  -1.2663  -1.4989
- -1.3602  -1.2763  -1.3560  -1.4723  -1.3223  -1.5130  -1.9775  -1.4275
- -1.8201  -2.1119  -1.9542  -1.1874  -1.6391  -1.2583  -1.6973  -1.6764
- -1.9074  -1.6339  -1.5209  -1.5907  -1.3448  -1.5615  -1.3501  -1.5807
- -1.6011  -1.5893  -1.8009  -1.4936  -2.2725  -2.1228  -1.7811  -1.8235
- -2.0339  -2.1682  -2.4410  -1.6598  -1.8195  -2.0753  -1.5560  -1.6515
- -1.8899  -2.3826  -5.9710  -5.9043  -5.9516  -5.9237  -1.8089  -1.4922
--14.7995 -11.5107  -1.6772 -34.3023  -4.4966  -1.7921  -3.9018  -6.8891
- -2.1078  -6.6770  -1.2925  -7.1562 -10.3235  -4.3555  -1.6637 -12.4181
- -1.3899  -2.5022  -3.8339  -5.0378  -6.8886  -1.4823  -4.6233 -65.7683
- -2.8149  -1.3368  -2.3629 -76.3274  -6.5451 -10.2112  -2.3735  -1.3445
- -5.4439 -14.9518  -2.7523  -5.4680  -7.6507  -5.9392  -1.2952  -9.1902
- -6.5287  -1.1595  -7.6522 -16.6467  -4.9439  -4.0364  -3.6837  -8.9886
- -4.0150  -2.9242  -6.2034 -71.1153  -0.9855  -1.7055 -72.0026  -7.6628
- -5.0469  -6.0226 -11.3433  -4.9230  -6.4918  -4.2411  -6.8232  -9.4908
- -7.7836  -1.7741  -1.5194  -6.0124  -5.6363 -19.8487  -3.2569  -6.0652
- -8.2986  -3.0849  -9.8291  -2.8023  -1.7579  -6.4865 -44.3309 -16.7687
--14.4363  -6.2461  -2.2362  -6.9092  -9.1914  -2.5090 -54.6907  -6.2364
- -6.4969 -15.7496 -10.3667  -1.0519  -5.7528  -1.1638 -15.9544  -2.9810
- -9.1779  -4.4298 -21.6975 -42.7195  -3.8465  -5.7958 -51.0013 -51.4539
- -4.9540  -4.4950  -1.1318  -4.3813  -1.0790  -2.6970  -7.8342  -9.3916
- -5.3883  -1.8994  -2.4601 -12.7005  -8.1862 -11.1165  -6.8101 -10.5887
- -4.9180  -6.2200  -7.4619 -15.3959  -5.9546  -7.8267 -14.4008  -6.1080
- -4.6861  -7.9224 -11.5174 -17.6244 -10.2034  -3.9579  -6.6043  -3.9234
--10.0261  -9.4705  -9.9345  -6.1277  -8.9262  -7.0823  -3.5999  -5.0260
- -6.8279 -32.6151  -6.0999  -5.9590  -7.4089  -8.9133  -3.3616  -4.1315
- -9.7696  -5.5706  -3.7643 -10.7443 -14.2886  -9.5902  -8.4671  -6.2630
- -2.5067 -14.8213  -4.4693 -11.6480  -9.7851  -4.4156 -12.3456  -8.1503
--12.0035 -17.2148  -9.8831 -30.3765  -8.7646  -4.2321  -2.8907 -32.3512
--11.3305  -6.5541  -7.0917  -5.2158  -6.1420  -7.0949  -7.1531  -5.9741
- -6.6961  -7.5712  -7.5353  -7.4304  -8.9944 -12.1872  -6.4755  -6.0653
- -6.0733  -7.0600  -7.3845  -3.3088  -8.6680  -5.6166  -9.7681  -5.0051
- -4.4348  -5.8867 -16.6904  -5.9815 -20.6513 -18.9599  -5.5451  -2.9081
- -8.8025  -5.1514  -4.2181 -26.2099  -4.6342 -11.4373 -11.1271  -3.6466
- -7.1922 -24.8317 -10.2482  -5.7008  -8.7843  -3.6046  -4.8476  -4.9565
- -5.0281  -5.3898  -8.7542 -14.6349  -7.4365 -18.6823  -9.7067  -8.6747
- -5.5906  -6.4707  -4.2737  -7.0778  -7.1289 -21.8955 -21.2345  -5.7470
--20.6698  -7.8332 -10.8419 -22.0370 -23.0491  -8.1376  -6.9443  -4.1397
- -6.8919 -13.9351  -6.7819  -7.1257 -10.6847 -19.9536 -13.9708  -4.4891
--35.2606  -8.6009  -5.7010  -5.4703 -10.5925  -2.8638  -7.7980  -2.0005
- -9.0990  -3.5076 -14.8211 -13.8179  -3.0554  -7.5786  -9.2787  -1.6429
--15.7354 -22.5484 -59.7391  -8.4242  -4.1125 -66.7563 -11.9226  -7.5344
--17.1155 -11.3208 -63.3530  -6.2395 -70.1179 -74.6865  -5.7257 -15.2689
- -2.6131 -16.6741  -3.5268  -8.9505 -10.1471 -10.4714  -6.9419  -8.4143
- -8.7118  -6.8573  -6.6565  -2.0354  -8.4368 -13.5143 -22.3890  -3.7236
- -2.1231  -6.4527 -18.7663 -19.4965 -11.4566 -22.6353  -6.9987 -13.7261
--16.8607 -31.3002  -6.9002 -12.6925 -41.5949 -15.4904  -6.2063 -15.3431
- -6.8393 -13.7042 -16.5549  -9.2469  -8.6964 -19.1051  -7.8953  -2.8544
- -7.3554  -9.4257  -6.9366 -18.4319 -10.9132 -12.8407  -6.2021  -9.5754
+-89.0357 -89.0287 -89.0250 -89.0225 -89.0184 -89.0148 -89.0140 -89.0137
+-89.0117 -89.0065 -89.0061 -89.0047 -89.0013 -89.0012 -88.9988 -88.9984
+-88.9959 -88.9953 -88.9862 -88.9790 -88.9774 -88.9747 -88.9556 -88.9537
+-19.1433 -19.1398 -19.1392 -19.1335 -19.1314 -19.1301 -19.1269 -19.1237
+-19.1226 -19.1224 -19.1196 -19.1160 -19.1156 -19.1136 -19.1132 -19.1110
+-19.1094 -19.1089 -19.0992 -19.0943 -19.0921 -19.0788 -19.0773 -19.0730
+-10.2575 -10.2556 -10.2524 -10.2464 -10.2412 -10.2404 -10.2330 -10.2324
+-10.2316 -10.2307 -10.2305 -10.2296 -10.2289 -10.2284 -10.2261 -10.2246
+-10.2234 -10.2232 -10.2231 -10.2226 -10.2216 -10.2184 -10.2179 -10.2177
+-10.2177 -10.2174 -10.2168 -10.2158 -10.2152 -10.2133 -10.2133 -10.2118
+-10.2111 -10.2060 -10.2048 -10.2038 -10.1990 -10.1986 -10.1985 -10.1982
+-10.1960 -10.1939 -10.1895 -10.1841 -10.1799 -10.1789 -10.1702 -10.1638
+ -8.0813  -8.0753  -8.0712  -8.0677  -8.0642  -8.0606  -8.0596  -8.0586
+ -8.0580  -8.0529  -8.0520  -8.0502  -8.0470  -8.0463  -8.0449  -8.0448
+ -8.0421  -8.0413  -8.0321  -8.0243  -8.0236  -8.0207  -8.0023  -7.9993
+ -6.0458  -6.0446  -6.0395  -6.0385  -6.0381  -6.0356  -6.0344  -6.0330
+ -6.0324  -6.0305  -6.0286  -6.0285  -6.0272  -6.0253  -6.0248  -6.0238
+ -6.0235  -6.0230  -6.0226  -6.0224  -6.0219  -6.0217  -6.0208  -6.0183
+ -6.0172  -6.0170  -6.0164  -6.0162  -6.0162  -6.0157  -6.0152  -6.0148
+ -6.0130  -6.0113  -6.0108  -6.0103  -6.0101  -6.0095  -6.0095  -6.0092
+ -6.0091  -6.0080  -6.0079  -6.0078  -6.0066  -6.0057  -6.0052  -6.0043
+ -6.0043  -6.0037  -6.0024  -6.0023  -5.9990  -5.9989  -5.9965  -5.9953
+ -5.9894  -5.9886  -5.9880  -5.9875  -5.9867  -5.9849  -5.9839  -5.9818
+ -5.9808  -5.9783  -5.9665  -5.9652  -5.9638  -5.9624  -5.9598  -5.9567
+ -1.0535  -1.0519  -1.0501  -1.0434  -1.0431  -1.0407  -1.0392  -1.0360
+ -1.0337  -1.0321  -1.0279  -1.0269  -1.0263  -1.0251  -1.0222  -1.0218
+ -1.0203  -1.0188  -1.0082  -1.0027  -0.9999  -0.9971  -0.9855  -0.9791
+ -0.8412  -0.8351  -0.8274  -0.8188  -0.8178  -0.8174  -0.8113  -0.8100
+ -0.8098  -0.8094  -0.8089  -0.8087  -0.8075  -0.8025  -0.8021  -0.7975
+ -0.7955  -0.7890  -0.7889  -0.7835  -0.7829  -0.7692  -0.7685  -0.7636
+ -0.7616  -0.7603  -0.7495  -0.7429  -0.7398  -0.7397  -0.7364  -0.7347
+ -0.7344  -0.7331  -0.7329  -0.7321  -0.7312  -0.7301  -0.7262  -0.7254
+ -0.7221  -0.7140  -0.7132  -0.7114  -0.7048  -0.7026  -0.6879  -0.6805
+ -0.6487  -0.6430  -0.6413  -0.6323  -0.6317  -0.6292  -0.6288  -0.6269
+ -0.6214  -0.6214  -0.6181  -0.6163  -0.6144  -0.6143  -0.6115  -0.6092
+ -0.6068  -0.6048  -0.5993  -0.5954  -0.5904  -0.5881  -0.5689  -0.5633
+ -0.5190  -0.5138  -0.5095  -0.5078  -0.5011  -0.4987  -0.4977  -0.4956
+ -0.4948  -0.4944  -0.4939  -0.4929  -0.4924  -0.4905  -0.4891  -0.4887
+ -0.4878  -0.4876  -0.4870  -0.4854  -0.4854  -0.4840  -0.4837  -0.4833
+ -0.4821  -0.4814  -0.4809  -0.4799  -0.4794  -0.4788  -0.4780  -0.4773
+ -0.4768  -0.4766  -0.4754  -0.4746  -0.4730  -0.4729  -0.4725  -0.4699
+ -0.4688  -0.4677  -0.4674  -0.4668  -0.4659  -0.4653  -0.4651  -0.4639
+ -0.4637  -0.4628  -0.4612  -0.4597  -0.4594  -0.4591  -0.4582  -0.4575
+ -0.4574  -0.4564  -0.4547  -0.4539  -0.4531  -0.4526  -0.4511  -0.4507
+ -0.4488  -0.4482  -0.4476  -0.4449  -0.4433  -0.4430  -0.4428  -0.4419
+ -0.4416  -0.4403  -0.4400  -0.4396  -0.4387  -0.4378  -0.4372  -0.4362
+ -0.4344  -0.4342  -0.4338  -0.4323  -0.4319  -0.4304  -0.4301  -0.4295
+ -0.4284  -0.4273  -0.4271  -0.4258  -0.4256  -0.4249  -0.4236  -0.4234
+ -0.4211  -0.4197  -0.4195  -0.4180  -0.4175  -0.4164  -0.4161  -0.4156
+ -0.4152  -0.4128  -0.4122  -0.4116  -0.4105  -0.4098  -0.4088  -0.4086
+ -0.4083  -0.4069  -0.4067  -0.4063  -0.4056  -0.4052  -0.4025  -0.4018
+ -0.4001  -0.3993  -0.3978  -0.3970  -0.3968  -0.3966  -0.3961  -0.3952
+ -0.3948  -0.3942  -0.3935  -0.3921  -0.3911  -0.3896  -0.3881  -0.3879
+ -0.3870  -0.3867  -0.3836  -0.3834  -0.3831  -0.3794  -0.3789  -0.3780
+ -0.3755  -0.3740  -0.3732  -0.3723  -0.3702  -0.3695  -0.3690  -0.3676
+ -0.3670  -0.3657  -0.3651  -0.3649  -0.3622  -0.3601  -0.3591  -0.3567
+ -0.3547  -0.3487  -0.3457  -0.3407  -0.3397  -0.3353  -0.3249  -0.3155
+ -0.3047  -0.2993  -0.2950  -0.2950  -0.2926  -0.2912  -0.2850  -0.2846
+ -0.2835  -0.2827  -0.2796  -0.2774  -0.2767  -0.2742  -0.2741  -0.2735
+ -0.2725  -0.2720  -0.2702  -0.2694  -0.2687  -0.2616  -0.2604  -0.2597
+ -0.2588  -0.2579  -0.2547  -0.2547  -0.2534  -0.2524  -0.2510  -0.2443
+ -0.2443  -0.2426  -0.2411  -0.2400  -0.2395  -0.2387  -0.2369  -0.2354
+ -0.2321  -0.2310  -0.2245  -0.2185  -0.2146  -0.2118  -0.2029  -0.1935
  -- Virtual --
 -10.2057 -13.1415 -10.7676 -10.4457 -15.0771 -13.6292 -10.3210 -10.3501
 -10.1883  -0.7740  -0.7381  -0.5380  -0.7400  -0.9541  -0.6277  -0.6119
@@ -2372,7 +2408,7 @@ $end
   4.4895   4.5055   4.5307   4.5365   4.5709   4.5802   4.5991   4.6435
   4.6924   4.7152   4.7991   4.8397
  --------------------------------------------------------------
- 
+
           Ground-State Mulliken Net Atomic Charges
 
      Atom                 Charge (a.u.)
@@ -2646,7 +2682,7 @@ $end
                     Cartesian Multipole Moments
  -----------------------------------------------------------------
     Charge (ESU x 10^10)
-                -0.0000
+                 0.0000
     Dipole Moment (Debye)
          X     -18.7586      Y     -10.9485      Z     -20.1769
        Tot      29.6456
@@ -3991,11 +4027,8 @@ $end
     2  -0.0002606  -0.0265102  -0.0073714  -0.0015551
     3   0.0254942  -0.0151208  -0.0018439   0.0625886
   --- DONE ESP SUMMARY ---
-Archival summary:
-1\1\node027\SP\ProcedureUnspecified\6-31+G*\242448h22\ymao90\FriDec314:50:082021FriDec314:50:082021\0\\#,ProcedureUnspecified,6-31+G*,\\0,1\S\O,1,1.49693\C,1,1.80699,2,102.007\H,3,1.09267,1,109.201,2,-48.6539,0\H,3,1.09302,1,110.227,2,-173.072,0\H,3,1.09352,1,115.576,2,71.1784,0\C,1,1.80766,2,104.713,3,99.4415,0\H,7,1.09244,1,105.306,2,-162.857,0\H,7,1.0927,1,100.729,2,79.8285,0\H,7,1.09278,1,112.104,2,-38.3005,0\H,10,1.98666,7,105.042,1,140.312,0\C,11,1.09324,10,128.988,7,-153.626,0\H,12,1.09265,11,114.326,10,-113.767,0\H,12,1.09309,11,106.473,10,10.9542,0\S,12,1.8073,11,108.7,10,125.586,0\O,15,1.49717,12,105.117,11,159.89,0\C,15,1.80627,12,93.5696,11,50.1355,0\H,17,1.09275,15,112.749,12,38.1433,0\H,17,1.09309,15,107.293,12,-80.8708,0\H,17,1.09341,15,112.04,12,155.512,0\H,20,2.14846,17,117.424,15,155.753,0\C,21,1.09255,20,117.815,17,161.599,0\H,22,1.09306,21,109.305,20,-160.371,0\H,22,1.09359,21,108.419,20,73.8593,0\S,22,1.80724,21,117.766,20,-45.3977,0\O,25,1.49759,22,100.619,21,52.0421,0\C,25,1.80737,22,97.6858,21,-59.2234,0\H,27,1.0923,25,114.523,22,-179.724,0\H,27,1.09259,25,112.45,22,-53.7214,0\H,27,1.09336,25,110.744,22,63.4743,0\H,5,2.44715,3,132.199,1,-82.1107,0\C,31,1.09365,5,90.7335,3,-105.566,0\H,32,1.09256,31,112.879,5,-72.8337,0\H,32,1.09328,31,110.532,5,51.8106,0\S,32,1.80648,31,110.797,5,169.674,0\O,35,1.49709,32,100.239,31,19.2449,0\C,35,1.80672,32,97.2028,31,-88.1763,0\H,37,1.09262,35,108.191,32,48.362,0\H,37,1.09291,35,109.641,32,-73.4395,0\H,37,1.09317,35,104.767,32,173.321,0\O,9,2.52929,7,105.553,1,108.948,0\S,41,1.49619,9,158.329,7,-20.1293,0\C,42,1.80686,41,99.5124,9,168.789,0\H,43,1.09288,42,111.572,41,34.208,0\H,43,1.09309,42,106.346,41,-90.8003,0\H,43,1.09335,42,110.774,41,156.564,0\C,42,1.80806,41,104.741,9,-94.7249,0\H,47,1.09268,42,114.808,41,-40.2561,0\H,47,1.09286,42,109.421,41,77.5921,0\H,47,1.09327,42,108.921,41,-163.232,0\Gh,48,2.27255,47,158.711,42,-25.2498,0\Gh,51,1.09702,48,121.244,47,151.901,0\Gh,52,1.0968,51,109.004,48,115.475,0\Gh,52,1.5372,51,107.376,48,-123.785,0\Gh,54,1.09678,52,105.967,51,-47.7737,0\Gh,54,1.09731,52,110.528,51,-160.432,0\Gh,54,1.53749,52,116.12,51,75.4773,0\Gh,57,1.09694,54,110.167,52,176.087,0\Gh,57,1.09761,54,100.115,52,-63.6608,0\Gh,57,1.53711,54,113.758,52,51.7299,0\Gh,60,1.09681,57,108.233,54,69.8398,0\Gh,60,1.09733,57,107.362,54,-171.746,0\Gh,52,1.53798,51,111.336,48,-3.18893,0\Gh,63,1.09606,52,107.135,51,49.5079,0\Gh,63,1.09695,52,106.858,51,160.805,0\Gh,63,1.53724,52,116.818,51,-75.4618,0\Gh,66,1.09744,63,108.956,52,66.4349,0\Gh,66,1.46157,63,110.969,52,-169.891,0\Gh,68,1.01312,66,118.885,63,60.9737,0\Gh,68,1.37838,66,122.891,63,-111.69,0\Gh,70,1.10549,68,115.723,66,178.099,0\Gh,70,1.21864,68,124.406,66,1.90296,0\O,69,1.87043,68,164.511,66,-131.295,0\S,73,1.49759,69,143.108,68,-11.1727,0\C,74,1.80648,73,107.091,69,-40.5687,0\H,75,1.09321,74,108.357,73,167.213,0\H,75,1.09325,74,110.355,73,41.0813,0\H,75,1.09378,74,111.22,73,-73.4382,0\C,74,1.80756,73,99.9943,69,52.7695,0\H,79,1.09208,74,110.471,73,-52.582,0\H,79,1.09312,74,112.44,73,-175.912,0\H,79,1.09341,74,112.751,73,57.0891,0\O,71,2.04761,70,144.942,68,134.694,0\S,83,1.49651,71,131.496,70,-4.91589,0\C,84,1.80705,83,102.549,71,44.3072,0\H,85,1.09296,84,112.158,83,-168.903,0\H,85,1.09307,84,105.072,83,-53.3379,0\H,85,1.09386,84,106.891,83,66.489,0\C,84,1.80789,83,106.311,71,138.41,0\H,89,1.09264,84,110.865,83,-46.6562,0\H,89,1.0928,84,108.483,83,67.6492,0\H,89,1.09282,84,101.282,83,-165.01,0\H,65,2.10846,63,147.865,52,60.1371,0\C,93,1.09334,65,122.612,63,-167.445,0\H,94,1.09283,93,104.103,65,24.1425,0\H,94,1.09322,93,118.423,65,-88.1168,0\S,94,1.80691,93,113.246,65,142.093,0\O,97,1.49797,94,105.855,93,53.8503,0\C,97,1.80713,94,94.7532,93,-50.9134,0\H,99,1.09238,97,108.601,94,170.944,0\H,99,1.09304,97,96.4997,94,53.8084,0\H,99,1.09358,97,109.367,94,-62.1871,0\H,88,2.16444,85,105.544,84,-138.374,0\C,103,1.09313,88,136.91,85,-91.3981,0\H,104,1.09288,103,122.999,88,-42.0007,0\H,104,1.09337,103,113.634,88,83.2148,0\S,104,1.80686,103,98.8851,88,-159.214,0\O,107,1.49721,104,109.802,103,146.263,0\C,107,1.8068,104,100.636,103,36.9162,0\H,109,1.09251,107,106.855,104,165.394,0\H,109,1.09282,107,106.549,104,44.8491,0\H,109,1.09354,107,105.781,104,-79.1082,0\H,73,2.24713,69,88.145,68,-118.792,0\C,113,1.09263,73,149.518,69,154.039,0\H,114,1.09285,113,115.815,73,14.534,0\H,114,1.09312,113,107.891,73,135.195,0\S,114,1.80742,113,104.504,73,-115.535,0\O,117,1.49629,114,102.251,113,-169.476,0\C,117,1.80761,114,96.897,113,-59.5672,0\H,119,1.09256,117,106.499,114,-70.0088,0\H,119,1.09313,117,108.752,114,164.91,0\H,119,1.0936,117,103.92,114,47.2458,0\H,116,2.15187,114,113.947,113,-2.8716,0\C,123,1.09243,116,122.051,114,-69.558,0\H,124,1.09282,123,112.269,116,113.394,0\H,124,1.09289,123,113.357,116,-10.8391,0\S,124,1.80737,123,102.588,116,-130.603,0\O,127,1.49699,124,100.361,123,-13.6157,0\C,127,1.80682,124,97.4657,123,-111.293,0\H,129,1.09265,127,114.3,124,175.67,0\H,129,1.09319,127,112.201,124,-61.2298,0\H,129,1.09358,127,108.302,124,59.7538,0\H,120,2.15481,119,127.485,117,-154.169,0\C,133,1.0929,120,148.314,119,-150.053,0\H,134,1.09275,133,107.972,120,-126.379,0\H,134,1.09335,133,114.158,120,-5.10033,0\S,134,1.80714,133,107.562,120,117.063,0\O,137,1.49654,134,107.837,133,-173.29,0\C,137,1.8069,134,93.0335,133,-66.1249,0\H,139,1.09248,137,107.436,134,45.5187,0\H,139,1.09307,137,115.261,134,169.441,0\H,139,1.09311,137,104.084,134,-74.2588,0\H,102,2.33493,99,142.883,97,-131.599,0\C,143,1.09305,102,163.354,99,30.8122,0\H,144,1.09278,143,115.204,102,-53.3324,0\H,144,1.0937,143,105.735,102,81.3494,0\S,144,1.80723,143,104.23,102,-171.732,0\O,147,1.49719,144,104.296,143,-73.9397,0\C,147,1.80632,144,90.1258,143,-175.312,0\H,149,1.09304,147,102.069,144,-84.3559,0\H,149,1.09307,147,115.445,144,24.4637,0\H,149,1.09342,147,106.303,144,154.329,0\H,146,2.33237,144,120.842,143,23.0256,0\C,153,1.09264,146,141.025,144,125.711,0\H,154,1.09268,153,102.43,146,97.0753,0\H,154,1.09382,153,110.457,146,-22.2431,0\S,154,1.8069,153,106.188,146,-146.243,0\O,157,1.49706,154,104.873,153,-51.2194,0\C,157,1.8071,154,91.5141,153,45.8522,0\H,159,1.09251,157,110.693,154,-58.5627,0\H,159,1.0927,157,106.735,154,62.4505,0\H,159,1.09287,157,111.539,154,-178.74,0\H,111,2.35933,109,137.434,107,34.6752,0\C,163,1.0933,111,106.928,109,170.674,0\H,164,1.09268,163,112.692,111,-148.057,0\H,164,1.09309,163,111.631,111,-28.609,0\S,164,1.80718,163,109.189,111,103.1,0\O,167,1.49657,164,99.5698,163,-54.3314,0\C,167,1.80768,164,89.1384,163,-159.987,0\H,169,1.09277,167,109.787,164,39.1919,0\H,169,1.09284,167,103.311,164,164.233,0\H,169,1.09344,167,107.761,164,-72.5129,0\H,121,2.3656,119,110.302,117,28.9514,0\C,173,1.09278,121,128.7,119,107.721,0\H,174,1.09354,173,110.569,121,11.9907,0\H,174,1.09354,173,111.51,121,-98.3793,0\S,174,1.80665,173,110.727,121,137.678,0\O,177,1.49721,174,103.912,173,58.2925,0\C,177,1.80742,174,97.7117,173,164.131,0\H,179,1.09209,177,107.705,174,-42.6911,0\H,179,1.0928,177,111.036,174,-161.607,0\H,179,1.09296,177,111.143,174,86.9575,0\H,131,2.39079,129,122.793,127,-103.315,0\C,183,1.09352,131,129.741,129,-32.2471,0\H,184,1.09263,183,104.928,131,170.079,0\H,184,1.0931,183,97.7673,131,51.9684,0\S,184,1.80708,183,112.407,131,-67.5795,0\O,187,1.49699,184,110.511,183,52.2121,0\C,187,1.80684,184,100.679,183,151.017,0\H,189,1.0924,187,103.34,184,72.4273,0\H,189,1.09291,187,112.734,184,-44.6884,0\H,189,1.09363,187,112.442,184,-177.741,0\O,145,2.40604,144,126.594,143,-73.8936,0\S,193,1.49744,145,136.802,144,49.7324,0\C,194,1.80651,193,99.1457,145,80.254,0\H,195,1.09285,194,119.635,193,-162.048,0\H,195,1.09289,194,104.281,193,-46.2916,0\H,195,1.09314,194,105.691,193,67.7624,0\C,194,1.80714,193,102.135,145,-15.5739,0\H,199,1.09269,194,110.106,193,38.6473,0\H,199,1.09289,194,102.553,193,-77.6088,0\H,199,1.09294,194,116.612,193,164.294,0\H,192,2.4161,189,136.054,187,45.9262,0\C,203,1.09277,192,110.329,189,170.743,0\H,204,1.09261,203,111.469,192,-158.089,0\H,204,1.09322,203,111.261,192,-36.4313,0\S,204,1.80685,203,115.255,192,75.5819,0\O,207,1.49673,204,105.497,203,64.5317,0\C,207,1.80671,204,95.4385,203,168.429,0\H,209,1.09301,207,105.96,204,70.2892,0\H,209,1.09322,207,102.036,204,179.241,0\H,209,1.09391,207,110.539,204,-56.1493,0\H,206,2.43943,204,104.878,203,-32.3619,0\C,213,1.09324,206,124.399,204,-26.9246,0\H,214,1.0928,213,114.378,206,-38.8943,0\H,214,1.09381,213,111.344,206,89.0105,0\S,214,1.80704,213,103.041,206,-159.911,0\O,217,1.49651,214,101.701,213,-64.1947,0\C,217,1.80648,214,93.8313,213,-170.888,0\H,219,1.0928,217,106.498,214,61.4792,0\H,219,1.09317,217,100.294,214,-177.642,0\H,219,1.0934,217,106.379,214,-61.1909,0\H,161,2.48684,159,115.596,157,149.876,0\C,223,1.0934,161,107.052,159,124.526,0\H,224,1.09245,223,114.534,161,54.1416,0\H,224,1.09271,223,101.423,161,-67.0432,0\S,224,1.80727,223,108.273,161,179.585,0\O,227,1.49717,224,104.239,223,62.2338,0\C,227,1.80684,224,93.6126,223,-43.806,0\H,229,1.09265,227,106.286,224,-34.659,0\H,229,1.09295,227,111.202,224,79.5977,0\H,229,1.09315,227,113.049,224,-156.806,0\H,231,1.93191,229,131.305,227,-127.193,0\C,233,1.09317,231,160.478,229,-34.1468,0\H,234,1.09286,233,110.378,231,-41.6886,0\H,234,1.09301,233,112.965,231,-167.592,0\S,234,1.80733,233,111.711,231,79.0698,0\O,237,1.49692,234,102.979,233,-36.2132,0\C,237,1.80647,234,98.5379,233,-146.623,0\H,239,1.0926,237,112.85,234,50.6789,0\H,239,1.0933,237,116.608,234,-176.753,0\H,239,1.09362,237,101.093,234,-64.8911,0\H,242,2.35273,239,161.48,237,64.8852,0\C,243,1.09334,242,111.135,239,-118.493,0\H,244,1.09266,243,108.08,242,63.1948,0\H,244,1.09338,243,106.893,242,-51.0949,0\S,244,1.80722,243,112.687,242,-173.041,0\O,247,1.4974,244,102.4,243,167.149,0\C,247,1.80681,244,99.7153,243,-86.2782,0\H,249,1.09202,247,99.2028,244,91.3619,0\H,249,1.0924,247,107.346,244,-30.8573,0\H,249,1.09384,247,112.362,244,-154.103,0\H,228,2.58915,227,107.261,224,97.8783,0\C,253,1.09296,228,118.789,227,31.0972,0\H,254,1.09257,253,103.071,228,-52.4012,0\H,254,1.09314,253,118.499,228,-164.426,0\S,254,1.80666,253,113.766,228,64.6177,0\O,257,1.49717,254,104.485,253,83.1953,0\C,257,1.80693,254,93.9421,253,-174.263,0\H,259,1.09277,257,114.086,254,44.5998,0\H,259,1.0928,257,115.761,254,178.465,0\H,259,1.09307,257,110.064,254,-64.6648,0\\\@
-
- Total job time:  42.83s(wall), 141.77s(cpu) 
- Fri Dec  3 14:50:08 2021
+ Total job time:  25.53s(wall), 63.86s(cpu) 
+ Thu Jul 21 08:01:36 2022
 
         *************************************************************
         *                                                           *
