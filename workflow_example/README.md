@@ -1,6 +1,5 @@
 1. Copy scripts under the "python_scripts" folder to the current directory; download the trajectory file for CXF-D in DMSO
-   (deuCXF_in_DMSO.pdb) from  
-   https://office365stanford-my.sharepoint.com/:u:/r/personal/ymao90_stanford_edu/Documents/deuCXF_in_DMSO.pdb?csf=1&web=1&e=QxZehw 
+   (deuCXF_in_DMSO.pdb) from https://drive.google.com/file/d/1UmZ4MdwpYrAung4NMpETnoLgtfJr8tX6/view?usp=drive_link
 2. Get the boxsize for each frame (simulated with NPT) and save that to a .txt file:   
    ```
    python get_pdb_boxsize.py deuCXF_in_DMSO.pdb deuCXF_in_DMSO_boxsize.txt  
