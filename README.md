@@ -1,4 +1,6 @@
 # 2D_VSE_probe
+[![DOI](https://zenodo.org/badge/408633470.svg)](https://zenodo.org/doi/10.5281/zenodo.6300008)
+
 `python_scripts`: Python scripts used for the 2D-VSE paper  
 `sample_inputs`: representative set of Q-Chem input/output files (see README under that folder for details)  
 `workflow_example`: example (CXF-D in DMSO) illustrating the entire procedure of calculating solvent electric fields (starting from the MD trajectory)  
